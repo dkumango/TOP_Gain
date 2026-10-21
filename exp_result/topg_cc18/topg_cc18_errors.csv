@@ -1,0 +1,21 @@
+seed,dataset,method,fold,error,trace
+3,PhishingWebsites,VSURF,1,"RuntimeError: VSURF failed: Error in makePSOCKcluster(names = spec, ...) : 
+  Cluster setup failed. 9 of 9 workers failed to connect.
+Calls: VSURF ... VSURF_thres.default -> <Anonymous> -> makePSOCKcluster
+Execution halted
+","Traceback (most recent call last):
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_run_cc18.py"", line 104, in run
+    chosen = select(m, X_tr, y_tr, max_k, seed)
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_run_cc18.py"", line 69, in select
+    return list(PY_BASELINES[method](X_tr, y_tr, max_k))[:max_k]
+                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_baselines.py"", line 428, in select_vsurf
+    return _r_select(""VSURF"", X_tr, y_tr, max_k)
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_baselines.py"", line 418, in _r_select
+    raise RuntimeError(f""{method} failed: {res.stderr[-500:]}"")
+RuntimeError: VSURF failed: Error in makePSOCKcluster(names = spec, ...) : 
+  Cluster setup failed. 9 of 9 workers failed to connect.
+Calls: VSURF ... VSURF_thres.default -> <Anonymous> -> makePSOCKcluster
+Execution halted
+
+"

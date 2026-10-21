@@ -1,0 +1,5 @@
+metric,n_datasets,k,friedman_p,cd,rank_TOPG,rank_position_TOPG,ranks
+ROC-AUC,26,6,1.2921314234323602e-09,1.4787923867388968,2.230769230769231,1,TOPG 2.23; OOB log-loss 2.35; OOB Brier score 3.06; Net probability gain 3.73; OOB balanced accuracy 4.62; OOB accuracy 5.02
+Accuracy,26,6,4.598515822544625e-11,1.4787923867388968,2.0961538461538463,1,TOPG 2.10; OOB Brier score 2.56; OOB log-loss 2.85; Net probability gain 3.54; OOB balanced accuracy 4.88; OOB accuracy 5.08
+Macro-F1,26,6,1.456132246882552e-10,1.4787923867388968,2.3461538461538463,1,TOPG 2.35; OOB Brier score 2.54; OOB log-loss 2.85; Net probability gain 3.23; OOB accuracy 5.00; OOB balanced accuracy 5.04
+Stability,26,6,4.2802204963427e-20,1.4787923867388968,1.4230769230769231,1,TOPG 1.42; Net probability gain 2.40; OOB Brier score 3.10; OOB log-loss 3.15; OOB balanced accuracy 5.38; OOB accuracy 5.54
