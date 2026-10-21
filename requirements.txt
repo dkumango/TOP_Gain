@@ -1,0 +1,12 @@
+# versions used for the paper (Python 3.14.3); newer versions should work
+numpy>=2.0          # 2.4.3
+pandas>=2.0         # 3.0.1
+scipy>=1.11         # 1.17.1
+scikit-learn>=1.5   # 1.8.0
+xgboost>=2.0        # 3.2.0
+joblib>=1.3         # 1.5.3
+openml>=0.14        # 0.15.1
+matplotlib>=3.8     # 3.10.8
+pillow>=10          # 12.1.1
+pyHSICLasso>=1.4    # 1.4.2  (HSIC-Lasso baseline)
+Boruta>=0.3         # 0.4.3  (Boruta baseline)
