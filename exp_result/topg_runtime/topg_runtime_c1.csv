@@ -1,0 +1,391 @@
+dataset,P,N_train,method,cores,wall_sec,r_fit_sec,selected
+climate-model-simulation-crashes,18,432,TOPG,1,2.3074206999735907,,vconst_corr;vconst_2;convect_corr;bckgrnd_vdc1;vconst_5
+climate-model-simulation-crashes,18,432,ANOVA,1,0.0010789999505504,,vconst_2;vconst_corr;convect_corr;bckgrnd_vdc1;vconst_4
+climate-model-simulation-crashes,18,432,mRMR,1,0.0295228000031784,,vconst_corr;vconst_2;efficiency_factor;convect_corr;bckgrnd_vdc_ban
+climate-model-simulation-crashes,18,432,JMI,1,0.0293147000484168,,vconst_corr;vconst_2;convect_corr;efficiency_factor;bckgrnd_vdc_ban
+climate-model-simulation-crashes,18,432,ReliefF,1,0.0048698999453336,,vconst_2;bckgrnd_vdc1;vconst_corr;ah_corr;convect_corr
+climate-model-simulation-crashes,18,432,ElasticNet,1,0.0119896000251173,,vconst_corr;vconst_2;bckgrnd_vdc_eq;vconst_5;vertical_decay_scale
+climate-model-simulation-crashes,18,432,Boruta,1,2.302316600107588,,vconst_corr;vconst_2;convect_corr;bckgrnd_vdc1;bckgrnd_vdc_ban
+climate-model-simulation-crashes,18,432,SVM-RFE,1,0.0228153000352904,,vconst_corr;vconst_2;vconst_5;bckgrnd_vdc1;convect_corr
+climate-model-simulation-crashes,18,432,Stability Selection,1,0.0202837999677285,,vconst_2;vconst_corr;convect_corr;bckgrnd_vdc1;bckgrnd_vdc_psim
+climate-model-simulation-crashes,18,432,HSIC-Lasso,1,0.0341488999547436,,vconst_2;vconst_corr;bckgrnd_vdc1;convect_corr;vconst_7
+climate-model-simulation-crashes,18,432,RF impurity,1,0.3918812000192702,,vconst_2;vconst_corr;convect_corr;bckgrnd_vdc1;bckgrnd_vdc_eq
+climate-model-simulation-crashes,18,432,RF permutation,1,1.928116700029932,,vconst_corr;vconst_2;bckgrnd_vdc1;bckgrnd_vdc_eq;convect_corr
+climate-model-simulation-crashes,18,432,RF-RFE,1,1.0005612999666482,,vconst_2;vconst_corr;convect_corr;bckgrnd_vdc1;vconst_4
+climate-model-simulation-crashes,18,432,varSelRF,1,3.1200889000901952,2.95,vconst_2;vconst_corr;convect_corr;bckgrnd_vdc1;bckgrnd_vdc_eq
+climate-model-simulation-crashes,18,432,VSURF,1,3.896971400012262,3.73,vconst_2;vconst_corr;convect_corr;bckgrnd_vdc1;bckgrnd_vdc_eq
+pc1,21,887,TOPG,1,5.298863100004382,,E;lOBlank;lOComment;I;locCodeAndComment;uniq_Opnd;N;T;total_Opnd;L
+pc1,21,887,ANOVA,1,0.0007897999603301287,,uniq_Opnd;lOComment;loc;lOCode;lOBlank;B;V;total_Op;N;total_Opnd
+pc1,21,887,mRMR,1,0.07239109999500215,,I;L;locCodeAndComment;ev(g);lOComment;T;lOBlank;D;iv(G);E
+pc1,21,887,JMI,1,0.07097590004559606,,I;L;T;lOComment;locCodeAndComment;ev(g);lOBlank;D;E;iv(G)
+pc1,21,887,ReliefF,1,0.0059785000048577785,,E;T;locCodeAndComment;V;B;branchCount;lOComment;v(g);total_Op;N
+pc1,21,887,ElasticNet,1,0.02140480000525713,,uniq_Op;D;uniq_Opnd;L;lOBlank;locCodeAndComment;branchCount;v(g);I;iv(G)
+pc1,21,887,Boruta,1,4.2834067000076175,,loc;V;B;I;lOComment;lOBlank;uniq_Opnd;L;total_Opnd;lOCode
+pc1,21,887,SVM-RFE,1,0.10629479994531721,,loc;v(g);ev(g);iv(G);N;V;total_Op;uniq_Opnd;branchCount;total_Opnd
+pc1,21,887,Stability Selection,1,0.025528299971483648,,uniq_Opnd;lOComment;locCodeAndComment;lOBlank;L;D;I;uniq_Op;ev(g);v(g)
+pc1,21,887,HSIC-Lasso,1,0.0913021001033485,,locCodeAndComment;lOComment;I;lOBlank;L;B;uniq_Op;iv(G);ev(g)
+pc1,21,887,RF impurity,1,0.47065920010209084,,lOComment;I;uniq_Opnd;lOBlank;locCodeAndComment;V;loc;total_Opnd;T;lOCode
+pc1,21,887,RF permutation,1,2.4240853999508545,,uniq_Opnd;I;lOBlank;uniq_Op;total_Opnd;locCodeAndComment;lOComment;D;N;V
+pc1,21,887,RF-RFE,1,0.6572310000192374,,lOComment;I;uniq_Opnd;T;V;E;N;lOBlank;locCodeAndComment;loc
+pc1,21,887,varSelRF,1,8.033508999971673,7.89,uniq_Opnd;V;total_Opnd;N;T;E;I;B;total_Op;uniq_Op
+pc1,21,887,VSURF,1,18.267254499951378,18.11,uniq_Opnd;total_Op;lOComment;total_Opnd;lOBlank;T;V;E;N;I
+kc2,21,417,TOPG,1,4.421177200041711,,total_Opnd;lOBlank;ev(g);b;i;l;t;lOCodeAndComment;uniq_Opnd;iv(g)
+kc2,21,417,ANOVA,1,0.0007664000149816275,,d;uniq_Opnd;i;uniq_Op;loc;lOBlank;total_Opnd;total_Op;lOCode;n
+kc2,21,417,mRMR,1,0.06081399996764958,,total_Opnd;l;lOCodeAndComment;t;uniq_Op;lOComment;e;i;d;b
+kc2,21,417,JMI,1,0.059423299971967936,,total_Opnd;l;t;lOComment;uniq_Op;e;lOCodeAndComment;i;total_Op;d
+kc2,21,417,ReliefF,1,0.004398699966259301,,lOBlank;lOCodeAndComment;e;t;ev(g);v(g);branchCount;total_Op;b;v
+kc2,21,417,ElasticNet,1,0.010733100003562868,,uniq_Opnd;i;total_Opnd;b;l;loc;total_Op;uniq_Op;lOBlank;ev(g)
+kc2,21,417,Boruta,1,2.781503599951975,,loc;n;v;i;b;lOCode;total_Op;uniq_Opnd;total_Opnd;t
+kc2,21,417,SVM-RFE,1,0.013099699979647994,,loc;ev(g);v;n;d;i;e;uniq_Opnd;total_Op;total_Opnd
+kc2,21,417,Stability Selection,1,0.02079280000180006,,uniq_Opnd;uniq_Op;i;d;l;lOComment;ev(g);lOCodeAndComment;v(g);iv(g)
+kc2,21,417,HSIC-Lasso,1,0.03869690001010895,,uniq_Opnd;total_Opnd;ev(g);lOBlank;i;lOComment;lOCodeAndComment;total_Op
+kc2,21,417,RF impurity,1,0.3269067000364885,,total_Opnd;total_Op;loc;v;i;uniq_Opnd;lOCode;lOBlank;n;b
+kc2,21,417,RF permutation,1,2.103378399973735,,ev(g);lOCodeAndComment;l;b;i;iv(g);total_Opnd;lOComment;v(g);d
+kc2,21,417,RF-RFE,1,0.4712271000025794,,total_Opnd;total_Op;n;v;i;loc;uniq_Opnd;lOCode;e;t
+kc2,21,417,varSelRF,1,4.185238400008529,4.03,total_Opnd;lOBlank;v;uniq_Opnd;e;t;total_Op;n;b;loc
+kc2,21,417,VSURF,1,7.728573699947447,7.58,total_Opnd;lOBlank;uniq_Opnd;v;e;total_Op;t;b;loc;n
+kc1,21,1200,TOPG,1,5.526475599966943,,d;i;lOComment;v;locCodeAndComment;uniq_Op;loc;iv(g);lOCode;t
+kc1,21,1200,ANOVA,1,0.0008813999593257904,,d;uniq_Op;uniq_Opnd;total_Opnd;loc;n;total_Op;lOCode;b;i
+kc1,21,1200,mRMR,1,0.08034600003156811,,t;l;locCodeAndComment;lOComment;i;uniq_Op;e;lOBlank;ev(g);d
+kc1,21,1200,JMI,1,0.07961240003351122,,t;l;lOComment;locCodeAndComment;i;uniq_Op;e;d;lOBlank;ev(g)
+kc1,21,1200,ReliefF,1,0.0077046999940648675,,iv(g);locCodeAndComment;e;t;d;total_Opnd;uniq_Op;v(g);branchCount;loc
+kc1,21,1200,ElasticNet,1,0.028153799939900637,,d;b;total_Op;i;locCodeAndComment;v;uniq_Op;l;n;lOComment
+kc1,21,1200,Boruta,1,4.48834739997983,,loc;d;v;n;t;b;e;i;lOCode;total_Opnd
+kc1,21,1200,SVM-RFE,1,0.10817599995061755,,d;n;b;locCodeAndComment;lOComment;t;e;total_Opnd;total_Op;branchCount
+kc1,21,1200,Stability Selection,1,0.04084240004885942,,locCodeAndComment;lOComment;l;i;uniq_Op;d;ev(g);v(g);uniq_Opnd;lOBlank
+kc1,21,1200,HSIC-Lasso,1,0.13164979999419302,,e;i;d;total_Opnd;lOComment;ev(g);l;lOBlank;t
+kc1,21,1200,RF impurity,1,0.5384015999734402,,v;e;loc;t;i;total_Opnd;d;lOCode;n;total_Op
+kc1,21,1200,RF permutation,1,2.8986406000331044,,loc;b;lOComment;d;uniq_Op;total_Op;t;lOCode;total_Opnd;i
+kc1,21,1200,RF-RFE,1,0.7730973999714479,,v;i;t;total_Opnd;d;n;loc;e;total_Op;lOCode
+kc1,21,1200,varSelRF,1,15.427439199993387,15.28,t;e;v;lOCode;loc;d;n;total_Op;b;total_Opnd
+kc1,21,1200,VSURF,1,35.09279509994667,34.92,loc;e;d;uniq_Op;lOComment;branchCount;v(g);lOCode;t;v
+jm1,21,1200,TOPG,1,5.927357699954882,,i;loc;iv(g);e;locCodeAndComment;v;d;uniq_Op;v(g);uniq_Opnd
+jm1,21,1200,ANOVA,1,0.000919999903999269,,loc;i;uniq_Opnd;n;b;v;total_Opnd;branchCount;v(g);lOCode
+jm1,21,1200,mRMR,1,0.08153600001242012,,i;l;locCodeAndComment;ev(g);lOComment;uniq_Op;iv(g);t;d;v(g)
+jm1,21,1200,JMI,1,0.08078239997848868,,i;ev(g);locCodeAndComment;l;lOComment;uniq_Op;iv(g);t;uniq_Opnd;v(g)
+jm1,21,1200,ReliefF,1,0.008311299956403673,,uniq_Opnd;i;d;locCodeAndComment;lOBlank;l;total_Opnd;lOCode;t;e
+jm1,21,1200,ElasticNet,1,0.027674999902956188,,loc;i;lOCode;locCodeAndComment;branchCount;l;uniq_Opnd;total_Opnd;d;e
+jm1,21,1200,Boruta,1,4.3095322999870405,,loc;i;uniq_Opnd;v;d;n;total_Op;v(g);branchCount;total_Opnd
+jm1,21,1200,SVM-RFE,1,0.2975483000045642,,v;n;e;locCodeAndComment;t;b;i;uniq_Opnd;total_Op;total_Opnd
+jm1,21,1200,Stability Selection,1,0.035309000057168305,,i;loc;l;locCodeAndComment;d;e;t;ev(g);uniq_Op;lOCode
+jm1,21,1200,HSIC-Lasso,1,0.12523829995188862,,locCodeAndComment;i;loc;ev(g);iv(g);l;lOComment;lOBlank;v(g)
+jm1,21,1200,RF impurity,1,0.6981033000629395,,loc;i;uniq_Opnd;d;iv(g);v;t;e;v(g);branchCount
+jm1,21,1200,RF permutation,1,3.1004487000172958,,i;loc;lOBlank;uniq_Opnd;uniq_Op;v;total_Op;ev(g);locCodeAndComment;t
+jm1,21,1200,RF-RFE,1,0.9554589999606833,,loc;i;branchCount;v;e;t;d;uniq_Opnd;total_Opnd;iv(g)
+jm1,21,1200,varSelRF,1,17.734583299956284,17.58,e;t;v;n;loc;total_Opnd;d;uniq_Opnd;i;total_Op
+jm1,21,1200,VSURF,1,39.08550439996179,38.92,t;v;loc;i;uniq_Opnd;branchCount;e;d;total_Opnd;n
+steel-plates-fault,27,1200,TOPG,1,8.045884900027886,,V14;V11;V24;V13;V20;V12;V10;V1;V18;V25
+steel-plates-fault,27,1200,ANOVA,1,0.0009596000891178846,,V23;V22;V20;V12;V13;V24;V18;V8;V27;V25
+steel-plates-fault,27,1200,mRMR,1,0.15836789994500577,,V14;V2;V7;V11;V18;V25;V9;V17;V15;V1
+steel-plates-fault,27,1200,JMI,1,0.14023010001983494,,V14;V11;V18;V2;V7;V25;V9;V1;V6;V17
+steel-plates-fault,27,1200,ReliefF,1,0.009024200029671192,,V14;V11;V12;V13;V3;V4;V24;V15;V7;V1
+steel-plates-fault,27,1200,ElasticNet,1,0.1288518999936059,,V17;V11;V22;V10;V25;V24;V19;V9;V14;V12
+steel-plates-fault,27,1200,Boruta,1,1.8455577999120578,,V1;V2;V3;V4;V5;V6;V7;V8;V9;V10
+steel-plates-fault,27,1200,SVM-RFE,1,0.22988510003779083,,V14;V11;V10;V9;V22;V20;V19;V17;V25;V23
+steel-plates-fault,27,1200,Stability Selection,1,1.2186978999525309,,V26;V25;V24;V20;V23;V22;V21;V17;V19;V15
+steel-plates-fault,27,1200,HSIC-Lasso,1,0.18560450000222772,,V12;V23;V22;V9;V25;V1;V14;V18;V24;V13
+steel-plates-fault,27,1200,RF impurity,1,0.9906235999660566,,V11;V22;V14;V18;V5;V8;V23;V25;V2;V1
+steel-plates-fault,27,1200,RF permutation,1,4.502138400101103,,V11;V14;V12;V13;V18;V25;V17;V9;V10;V20
+steel-plates-fault,27,1200,RF-RFE,1,1.7992955000372604,,V11;V14;V1;V25;V5;V23;V9;V8;V18;V22
+steel-plates-fault,27,1200,varSelRF,1,24.127794399973936,23.97,V14;V11;V12;V13;V18;V23;V1;V5;V22;V8
+steel-plates-fault,27,1200,VSURF,1,57.291628499981016,57.12,V11;V14;V18;V25;V22;V9;V3;V26;V12;V13
+churn,29,1200,TOPG,1,8.437833499978296,,total_day_minutes;total_eve_minutes;international_plan_1;number_customer_service_calls_4;number_customer_service_calls_5;number_vmail_messages;total_day_charge;total_intl_minutes;total_intl_calls;number_customer_service_calls_6
+churn,29,1200,ANOVA,1,0.0009432999650016427,,international_plan_1;number_customer_service_calls_5;total_day_minutes;total_day_charge;number_customer_service_calls_4;total_eve_minutes;total_eve_charge;number_customer_service_calls_6;number_customer_service_calls_1;voice_mail_plan_1
+churn,29,1200,mRMR,1,0.11725550005212426,,total_day_charge;number_customer_service_calls_1;area_code_510;total_eve_minutes;voice_mail_plan_1;international_plan_1;total_intl_minutes;number_customer_service_calls_4;number_customer_service_calls_7;total_intl_calls
+churn,29,1200,JMI,1,0.11691300000529736,,total_day_charge;number_customer_service_calls_1;international_plan_1;total_eve_minutes;total_intl_calls;account_length;total_intl_minutes;number_customer_service_calls_4;area_code_510;number_customer_service_calls_7
+churn,29,1200,ReliefF,1,0.008529200102202594,,number_customer_service_calls_6;international_plan_1;number_customer_service_calls_4;number_customer_service_calls_9;number_customer_service_calls_8;number_customer_service_calls_5;number_customer_service_calls_7;voice_mail_plan_1;number_customer_service_calls_3;number_customer_service_calls_2
+churn,29,1200,ElasticNet,1,0.03658000007271767,,number_customer_service_calls_4;international_plan_1;number_customer_service_calls_5;voice_mail_plan_1;total_day_minutes;total_day_charge;number_customer_service_calls_6;total_eve_minutes;total_eve_charge;number_customer_service_calls_7
+churn,29,1200,Boruta,1,4.387307400000282,,total_day_charge;total_eve_minutes;total_day_minutes;total_eve_charge;number_customer_service_calls_4;number_customer_service_calls_5;international_plan_1;total_intl_minutes;total_night_minutes;total_night_charge
+churn,29,1200,SVM-RFE,1,0.13866830000188202,,total_day_charge;total_eve_minutes;total_night_minutes;total_intl_charge;total_night_charge;total_intl_minutes;total_eve_charge;number_customer_service_calls_6;number_customer_service_calls_7;number_customer_service_calls_5
+churn,29,1200,Stability Selection,1,0.37783929996658117,,number_customer_service_calls_5;voice_mail_plan_1;international_plan_1;number_customer_service_calls_4;total_night_minutes;total_eve_minutes;total_day_charge;total_day_minutes;total_intl_minutes;number_customer_service_calls_6
+churn,29,1200,HSIC-Lasso,1,0.18400339991785586,,number_customer_service_calls_5;number_customer_service_calls_4;international_plan_1;total_day_charge;total_night_calls;total_day_calls;total_eve_minutes;total_eve_calls;total_intl_minutes;total_intl_calls
+churn,29,1200,RF impurity,1,0.7331312000751495,,total_day_charge;total_day_minutes;total_eve_minutes;total_eve_charge;international_plan_1;number_customer_service_calls_5;number_customer_service_calls_4;total_intl_minutes;total_intl_charge;total_night_charge
+churn,29,1200,RF permutation,1,3.822427000035532,,international_plan_1;number_customer_service_calls_4;number_customer_service_calls_5;number_customer_service_calls_6;total_intl_calls;total_eve_charge;total_day_minutes;voice_mail_plan_1;total_intl_charge;number_vmail_messages
+churn,29,1200,RF-RFE,1,1.7177819999633357,,total_day_minutes;total_day_charge;total_eve_charge;total_eve_minutes;total_night_minutes;phone_number;total_night_calls;total_intl_minutes;total_day_calls;total_night_charge
+churn,29,1200,varSelRF,1,19.298466600012034,19.14,total_day_charge;total_day_minutes;total_eve_charge;total_eve_minutes;international_plan_1;number_customer_service_calls_4;total_night_minutes;total_night_charge;number_customer_service_calls_5;total_intl_minutes
+churn,29,1200,VSURF,1,32.74208190001082,32.58,total_day_charge;international_plan_1;total_eve_minutes;number_customer_service_calls_4;number_customer_service_calls_5;total_intl_calls;total_intl_minutes;voice_mail_plan_1;total_day_minutes;total_eve_charge
+sick,30,1200,TOPG,1,10.731543499976397,,T3;referral_source_other;FTI;TSH;TT4;referral_source_SVI;lithium_t;sex_M;I131_treatment_t;pregnant_t;sick_t;on_antithyroid_medication_t;referral_source_SVHD;goitre_t;T4U
+sick,30,1200,ANOVA,1,0.0009576000738888979,,T3;referral_source_SVI;referral_source_other;T4U;age;TT4;T3_measured_t;sick_t;query_hypothyroid_t;TSH_measured_t;TT4_measured_t;sex_M;FTI_measured_t;T4U_measured_t;referral_source_SVHC
+sick,30,1200,mRMR,1,0.1814427999779582,,T3;T3_measured_t;I131_treatment_t;query_on_thyroxine_t;lithium_t;thyroid_surgery_t;sick_t;tumor_t;on_antithyroid_medication_t;goitre_t;referral_source_SVI;TSH;query_hypothyroid_t;psych_t;referral_source_SVHD
+sick,30,1200,JMI,1,0.18428649997804314,,T3;T3_measured_t;query_on_thyroxine_t;I131_treatment_t;lithium_t;referral_source_SVI;thyroid_surgery_t;tumor_t;sick_t;on_antithyroid_medication_t;goitre_t;TSH;T4U;query_hypothyroid_t;psych_t
+sick,30,1200,ReliefF,1,0.008736000047065318,,sex_M;sick_t;referral_source_SVHC;goitre_t;hypopituitary_t;referral_source_SVHD;I131_treatment_t;thyroid_surgery_t;psych_t;pregnant_t;TT4_measured_t;on_antithyroid_medication_t;TSH_measured_t;tumor_t;FTI_measured_t
+sick,30,1200,ElasticNet,1,0.03716559999156743,,T3;T4U;TT4_measured_t;T3_measured_t;TT4;query_on_thyroxine_t;referral_source_SVI;thyroid_surgery_t;goitre_t;FTI;query_hypothyroid_t;pregnant_t;referral_source_other;sick_t;psych_t
+sick,30,1200,Boruta,1,3.0619634001050144,,age;TSH;T3;TT4;T4U;FTI;referral_source_other;referral_source_SVI;T3_measured_t;referral_source_SVHC;sick_t;query_hypothyroid_t;TSH_measured_t;sex_M;TT4_measured_t
+sick,30,1200,SVM-RFE,1,0.091942899976857,,age;TSH;T3;TT4;on_thyroxine_t;sex_M;I131_treatment_t;sick_t;query_hypothyroid_t;referral_source_SVHC;referral_source_other;referral_source_SVI;referral_source_SVHD;T3_measured_t;TSH_measured_t
+sick,30,1200,Stability Selection,1,0.036040399922057986,,T3;referral_source_SVI;referral_source_other;query_hypothyroid_t;sick_t;FTI;TSH;goitre_t;T4U;referral_source_SVHD;sex_M;query_on_thyroxine_t;on_thyroxine_t;query_hyperthyroid_t;thyroid_surgery_t
+sick,30,1200,HSIC-Lasso,1,0.20652340003289282,,T3;goitre_t;referral_source_SVI;query_hypothyroid_t;sick_t;FTI;query_on_thyroxine_t;T4U;TSH;sex_M;on_thyroxine_t;age;TT4;hypopituitary_t
+sick,30,1200,RF impurity,1,0.3544457000680268,,T3;TT4;FTI;T4U;TSH;age;referral_source_SVI;referral_source_other;sex_M;on_thyroxine_t;query_hypothyroid_t;sick_t;T3_measured_t;T4U_measured_t;referral_source_SVHC
+sick,30,1200,RF permutation,1,3.2547410000115633,,T3;TT4;referral_source_SVI;referral_source_other;FTI;TSH;age;goitre_t;T4U;FTI_measured_t;referral_source_SVHC;query_hyperthyroid_t;T3_measured_t;T4U_measured_t;on_thyroxine_t
+sick,30,1200,RF-RFE,1,0.4414412999758497,,T3;TT4;T4U;FTI;TSH;age;referral_source_SVI;referral_source_other;sick_t;on_thyroxine_t;query_hypothyroid_t;sex_M;T3_measured_t;goitre_t;T4U_measured_t
+sick,30,1200,varSelRF,1,10.56982540001627,10.41,T3;referral_source_SVI;referral_source_other;TT4;FTI;TSH;T4U;on_thyroxine_t;T3_measured_t;age;T4U_measured_t;FTI_measured_t;TSH_measured_t;query_hypothyroid_t;referral_source_SVHC
+sick,30,1200,VSURF,1,15.968908700044267,15.81,T3;referral_source_other;TSH;referral_source_SVI;TT4;FTI;T4U;on_thyroxine_t;age;FTI_measured_t;T4U_measured_t;T3_measured_t;TSH_measured_t;query_hypothyroid_t;sick_t
+wdbc,30,455,TOPG,1,9.887720300001092,,V23;V25;V2;V28;V24;V29;V27;V22;V14;V8;V4;V30;V21;V16;V20
+wdbc,30,455,ANOVA,1,0.000853499979712069,,V28;V8;V23;V21;V3;V24;V1;V7;V4;V27;V6;V26;V11;V13;V14
+wdbc,30,455,mRMR,1,0.14746590005233884,,V23;V20;V24;V29;V2;V8;V14;V28;V19;V21;V12;V27;V3;V25;V1
+wdbc,30,455,JMI,1,0.14750459999777377,,V23;V28;V24;V8;V21;V27;V14;V19;V3;V7;V1;V2;V4;V26;V11
+wdbc,30,455,ReliefF,1,0.004443300073035061,,V24;V23;V21;V8;V4;V14;V3;V1;V7;V28;V6;V13;V27;V26;V11
+wdbc,30,455,ElasticNet,1,0.015180999995209277,,V22;V21;V28;V11;V24;V8;V23;V7;V16;V25;V29;V27;V14;V4;V1
+wdbc,30,455,Boruta,1,4.988026200095192,,V1;V2;V3;V4;V5;V6;V7;V8;V11;V13;V14;V24;V21;V22;V23
+wdbc,30,455,SVM-RFE,1,0.021357899997383356,,V7;V8;V6;V10;V14;V16;V11;V24;V25;V27;V30;V29;V21;V22;V23
+wdbc,30,455,Stability Selection,1,0.02169810002669692,,V22;V21;V8;V28;V25;V29;V11;V7;V27;V2;V24;V20;V26;V30;V17
+wdbc,30,455,HSIC-Lasso,1,0.07262320001609623,,V8;V28;V24;V21;V22;V27;V11;V2;V29;V14;V25;V23
+wdbc,30,455,RF impurity,1,0.3761688000522554,,V28;V8;V23;V21;V24;V7;V4;V3;V1;V27;V14;V26;V22;V2;V6
+wdbc,30,455,RF permutation,1,2.8077689999481663,,V28;V23;V24;V14;V21;V1;V4;V3;V13;V11;V15;V2;V22;V19;V16
+wdbc,30,455,RF-RFE,1,0.44134729995857924,,V24;V8;V23;V21;V28;V7;V3;V27;V4;V1;V14;V22;V25;V2;V26
+wdbc,30,455,varSelRF,1,3.8649657000787556,3.7,V24;V21;V23;V28;V8;V27;V7;V14;V4;V3;V1;V22;V11;V2;V26
+wdbc,30,455,VSURF,1,9.123468599980697,8.97,V24;V28;V8;V22;V2;V21;V23;V27;V14;V7;V3;V4;V11;V1;V25
+GesturePhaseSegmentationProcessed,32,1200,TOPG,1,17.02990269998554,,X11;X2;X28;X29;X8;X26;X25;X12;X5;X31;X1;X24;X30;X27;X3
+GesturePhaseSegmentationProcessed,32,1200,ANOVA,1,0.0009513000259175897,,X26;X28;X27;X25;X11;X32;X5;X30;X29;X31;X8;X2;X12;X19;X7
+GesturePhaseSegmentationProcessed,32,1200,mRMR,1,0.22480940003879368,,X11;X8;X28;X9;X6;X4;X23;X19;X18;X26;X5;X2;X31;X22;X3
+GesturePhaseSegmentationProcessed,32,1200,JMI,1,0.22209139994811267,,X11;X28;X8;X9;X6;X23;X4;X5;X26;X2;X19;X18;X17;X32;X3
+GesturePhaseSegmentationProcessed,32,1200,ReliefF,1,0.009261900093406439,,X29;X31;X14;X20;X13;X23;X4;X8;X27;X25;X19;X2;X11;X32;X16
+GesturePhaseSegmentationProcessed,32,1200,ElasticNet,1,0.11766460002399981,,X28;X26;X15;X13;X12;X27;X16;X10;X4;X11;X8;X19;X25;X30;X2
+GesturePhaseSegmentationProcessed,32,1200,Boruta,1,11.69420100003481,,X1;X2;X3;X4;X5;X6;X7;X8;X9;X10;X11;X12;X22;X23;X19
+GesturePhaseSegmentationProcessed,32,1200,SVM-RFE,1,0.4398255000123754,,X4;X3;X8;X5;X12;X11;X10;X9;X13;X15;X16;X28;X25;X26;X27
+GesturePhaseSegmentationProcessed,32,1200,Stability Selection,1,1.0657315999269485,,X32;X29;X27;X28;X26;X25;X19;X15;X8;X11;X12;X5;X2;X7;X18
+GesturePhaseSegmentationProcessed,32,1200,HSIC-Lasso,1,0.23630679992493242,,X11;X28;X26;X1;X12;X10;X17;X27;X8;X4;X32;X25;X14;X7;X5
+GesturePhaseSegmentationProcessed,32,1200,RF impurity,1,1.2378036000300199,,X28;X26;X11;X5;X8;X30;X32;X2;X25;X27;X12;X3;X29;X6;X9
+GesturePhaseSegmentationProcessed,32,1200,RF permutation,1,5.517123199999332,,X11;X26;X28;X5;X8;X3;X2;X27;X25;X30;X12;X23;X6;X19;X7
+GesturePhaseSegmentationProcessed,32,1200,RF-RFE,1,1.578487600083463,,X28;X26;X11;X5;X30;X8;X27;X2;X29;X25;X32;X3;X12;X9;X6
+GesturePhaseSegmentationProcessed,32,1200,varSelRF,1,34.38816460000817,34.22,X28;X11;X26;X5;X8;X27;X25;X32;X2;X12;X3;X30;X6;X9;X29
+GesturePhaseSegmentationProcessed,32,1200,VSURF,1,78.01127049990464,77.83,X28;X11;X26;X8;X27;X2;X12;X3;X6;X5;X25;X32;X30;X9;X29
+satimage,36,1200,TOPG,1,16.041901000076905,,E11attr;F12attr;A13attr;A25attr;D16attr;A7attr;Dattr;E17attr;B14attr;F24attr;Aattr;C21attr;Fattr;E5attr;C15attr
+satimage,36,1200,ANOVA,1,0.0010500999633222818,,E11attr;F12attr;D16attr;C15attr;B14attr;A7attr;Fattr;Eattr;B8attr;E23attr;C3attr;D28attr;D4attr;F24attr;C27attr
+satimage,36,1200,mRMR,1,0.266977799939923,,F12attr;B14attr;E11attr;F18attr;D16attr;D10attr;B8attr;B2attr;C15attr;Dattr;Fattr;A7attr;F6attr;D28attr;D22attr
+satimage,36,1200,JMI,1,0.2675362000009045,,F12attr;B14attr;E11attr;F18attr;D16attr;C15attr;D10attr;B8attr;B2attr;A7attr;Dattr;Fattr;Eattr;F6attr;D28attr
+satimage,36,1200,ReliefF,1,0.008792100008577108,,F12attr;B8attr;D16attr;D28attr;F24attr;B20attr;E11attr;B26attr;E23attr;F18attr;B14attr;A7attr;D4attr;Fattr;Battr
+satimage,36,1200,ElasticNet,1,0.14472009998280555,,F12attr;F18attr;D16attr;C27attr;D4attr;Eattr;E23attr;C3attr;B8attr;D10attr;E29attr;A7attr;A19attr;D28attr;D22attr
+satimage,36,1200,Boruta,1,1.8930792999453843,,Aattr;Battr;Cattr;Dattr;Eattr;Fattr;A1attr;B2attr;C3attr;D4attr;E5attr;F6attr;A7attr;B8attr;C9attr
+satimage,36,1200,SVM-RFE,1,0.06660979997832328,,A1attr;B2attr;E5attr;D4attr;B8attr;D10attr;F12attr;E11attr;A19attr;E23attr;F24attr;F18attr;C15attr;D16attr;E29attr
+satimage,36,1200,Stability Selection,1,1.3608487999299541,,E29attr;D28attr;C27attr;A25attr;Aattr;F24attr;E23attr;C21attr;A19attr;C15attr;D16attr;E17attr;F12attr;A13attr;E11attr
+satimage,36,1200,HSIC-Lasso,1,0.26177300000563264,,E11attr;B14attr;F18attr;D10attr;E23attr;D16attr;Eattr;D22attr;C15attr;C3attr;B2attr;A7attr;F12attr;F6attr;A19attr
+satimage,36,1200,RF impurity,1,0.841409599990584,,E11attr;F12attr;B14attr;A7attr;D16attr;C15attr;E23attr;B8attr;D10attr;F18attr;C3attr;Eattr;A19attr;D22attr;Fattr
+satimage,36,1200,RF permutation,1,5.103188899927773,,F12attr;F18attr;D16attr;E11attr;C15attr;Eattr;F6attr;Fattr;C3attr;E23attr;A19attr;D10attr;E17attr;D4attr;D28attr
+satimage,36,1200,RF-RFE,1,1.1038795000640675,,F12attr;B14attr;E11attr;D16attr;D10attr;B8attr;A7attr;Eattr;F18attr;C15attr;A19attr;D22attr;E23attr;D4attr;B26attr
+satimage,36,1200,varSelRF,1,24.44365479995031,24.26,F12attr;E11attr;B14attr;A7attr;D10attr;D16attr;F18attr;Eattr;A19attr;E23attr;C15attr;B8attr;A13attr;B2attr;C3attr
+satimage,36,1200,VSURF,1,67.97212300007232,67.78,F12attr;E11attr;B14attr;D10attr;A7attr;F18attr;D16attr;B8attr;F30attr;D4attr;A19attr;B2attr;Eattr;C15attr;E23attr
+pc3,37,1200,TOPG,1,16.553358800010756,,LOC_BLANK;NUM_UNIQUE_OPERANDS;PARAMETER_COUNT;PERCENT_COMMENTS;MAINTENANCE_SEVERITY;LOC_TOTAL;DECISION_DENSITY;HALSTEAD_LENGTH;NUM_UNIQUE_OPERATORS;HALSTEAD_VOLUME;NUM_OPERANDS;NUMBER_OF_LINES;LOC_CODE_AND_COMMENT;HALSTEAD_EFFORT;NORMALIZED_CYLOMATIC_COMPLEXITY
+pc3,37,1200,ANOVA,1,0.0009431999642401934,,LOC_BLANK;LOC_COMMENTS;PERCENT_COMMENTS;LOC_CODE_AND_COMMENT;NUMBER_OF_LINES;CALL_PAIRS;MAINTENANCE_SEVERITY;NUM_UNIQUE_OPERATORS;NUM_UNIQUE_OPERANDS;DECISION_DENSITY;NODE_COUNT;EDGE_COUNT;NUM_OPERATORS;HALSTEAD_CONTENT;LOC_TOTAL
+pc3,37,1200,mRMR,1,0.23748190002515912,,LOC_BLANK;ESSENTIAL_DENSITY;PARAMETER_COUNT;HALSTEAD_CONTENT;PERCENT_COMMENTS;DESIGN_DENSITY;DESIGN_COMPLEXITY;NORMALIZED_CYLOMATIC_COMPLEXITY;HALSTEAD_EFFORT;HALSTEAD_LEVEL;LOC_CODE_AND_COMMENT;CYCLOMATIC_DENSITY;MAINTENANCE_SEVERITY;HALSTEAD_PROG_TIME;LOC_COMMENTS
+pc3,37,1200,JMI,1,0.2360930999275297,,LOC_BLANK;ESSENTIAL_DENSITY;HALSTEAD_CONTENT;PARAMETER_COUNT;PERCENT_COMMENTS;HALSTEAD_EFFORT;DESIGN_DENSITY;NORMALIZED_CYLOMATIC_COMPLEXITY;HALSTEAD_LEVEL;LOC_CODE_AND_COMMENT;HALSTEAD_VOLUME;MAINTENANCE_SEVERITY;CYCLOMATIC_DENSITY;DESIGN_COMPLEXITY;LOC_COMMENTS
+pc3,37,1200,ReliefF,1,0.009225400048308074,,LOC_COMMENTS;LOC_CODE_AND_COMMENT;DESIGN_COMPLEXITY;NUMBER_OF_LINES;LOC_EXECUTABLE;LOC_TOTAL;HALSTEAD_ERROR_EST;HALSTEAD_VOLUME;DECISION_DENSITY;CONDITION_COUNT;MULTIPLE_CONDITION_COUNT;DECISION_COUNT;HALSTEAD_EFFORT;HALSTEAD_PROG_TIME;MODIFIED_CONDITION_COUNT
+pc3,37,1200,ElasticNet,1,0.04383890004828572,,LOC_BLANK;NORMALIZED_CYLOMATIC_COMPLEXITY;NUM_UNIQUE_OPERANDS;HALSTEAD_PROG_TIME;HALSTEAD_EFFORT;LOC_EXECUTABLE;LOC_TOTAL;DECISION_COUNT;CALL_PAIRS;NUM_OPERATORS;NUM_UNIQUE_OPERATORS;MAINTENANCE_SEVERITY;HALSTEAD_CONTENT;ESSENTIAL_COMPLEXITY;PARAMETER_COUNT
+pc3,37,1200,Boruta,1,6.408377900021151,,LOC_BLANK;LOC_CODE_AND_COMMENT;LOC_COMMENTS;NUM_OPERATORS;HALSTEAD_VOLUME;HALSTEAD_LENGTH;HALSTEAD_ERROR_EST;HALSTEAD_CONTENT;NUM_OPERANDS;PERCENT_COMMENTS;NUMBER_OF_LINES;NUM_UNIQUE_OPERANDS;LOC_TOTAL;EDGE_COUNT;HALSTEAD_DIFFICULTY
+pc3,37,1200,SVM-RFE,1,0.6192090000258759,,BRANCH_COUNT;CONDITION_COUNT;CYCLOMATIC_COMPLEXITY;DECISION_COUNT;ESSENTIAL_COMPLEXITY;LOC_EXECUTABLE;HALSTEAD_ERROR_EST;HALSTEAD_EFFORT;HALSTEAD_VOLUME;MODIFIED_CONDITION_COUNT;MULTIPLE_CONDITION_COUNT;NUM_OPERATORS;HALSTEAD_PROG_TIME;NUM_UNIQUE_OPERANDS;LOC_TOTAL
+pc3,37,1200,Stability Selection,1,0.03942589997313917,,LOC_BLANK;MAINTENANCE_SEVERITY;PERCENT_COMMENTS;CALL_PAIRS;PARAMETER_COUNT;NUM_UNIQUE_OPERANDS;LOC_COMMENTS;HALSTEAD_EFFORT;ESSENTIAL_COMPLEXITY;DECISION_DENSITY;NORMALIZED_CYLOMATIC_COMPLEXITY;LOC_CODE_AND_COMMENT;HALSTEAD_PROG_TIME;HALSTEAD_CONTENT;NUM_UNIQUE_OPERATORS
+pc3,37,1200,HSIC-Lasso,1,0.23426559998188168,,LOC_BLANK;LOC_CODE_AND_COMMENT;LOC_COMMENTS;HALSTEAD_CONTENT;CALL_PAIRS;MAINTENANCE_SEVERITY;PARAMETER_COUNT;NUM_UNIQUE_OPERANDS;DESIGN_DENSITY;MODIFIED_CONDITION_COUNT;ESSENTIAL_DENSITY;HALSTEAD_EFFORT;HALSTEAD_PROG_TIME
+pc3,37,1200,RF impurity,1,0.7252118000760674,,LOC_BLANK;HALSTEAD_CONTENT;PERCENT_COMMENTS;NUMBER_OF_LINES;NUM_UNIQUE_OPERANDS;LOC_COMMENTS;HALSTEAD_VOLUME;HALSTEAD_DIFFICULTY;LOC_CODE_AND_COMMENT;NUM_OPERANDS;HALSTEAD_EFFORT;HALSTEAD_LENGTH;HALSTEAD_PROG_TIME;CYCLOMATIC_DENSITY;LOC_TOTAL
+pc3,37,1200,RF permutation,1,4.697437099996023,,LOC_BLANK;NUM_UNIQUE_OPERANDS;HALSTEAD_CONTENT;LOC_CODE_AND_COMMENT;CALL_PAIRS;HALSTEAD_VOLUME;PERCENT_COMMENTS;LOC_COMMENTS;HALSTEAD_LENGTH;HALSTEAD_DIFFICULTY;HALSTEAD_ERROR_EST;NUMBER_OF_LINES;NUM_OPERATORS;HALSTEAD_PROG_TIME;NUM_UNIQUE_OPERATORS
+pc3,37,1200,RF-RFE,1,1.191510699922219,,LOC_BLANK;PERCENT_COMMENTS;HALSTEAD_CONTENT;NUMBER_OF_LINES;NUM_UNIQUE_OPERANDS;HALSTEAD_VOLUME;CYCLOMATIC_DENSITY;LOC_TOTAL;HALSTEAD_PROG_TIME;HALSTEAD_EFFORT;LOC_COMMENTS;HALSTEAD_DIFFICULTY;NUM_OPERATORS;HALSTEAD_LENGTH;LOC_CODE_AND_COMMENT
+pc3,37,1200,varSelRF,1,22.06647660001181,21.91,NUM_UNIQUE_OPERANDS;HALSTEAD_VOLUME;LOC_BLANK;NUMBER_OF_LINES;HALSTEAD_CONTENT;HALSTEAD_LENGTH;HALSTEAD_EFFORT;HALSTEAD_PROG_TIME;NUM_OPERANDS;LOC_TOTAL;HALSTEAD_ERROR_EST;LOC_EXECUTABLE;NUM_OPERATORS;LOC_COMMENTS;HALSTEAD_DIFFICULTY
+pc3,37,1200,VSURF,1,52.56492070003878,52.4,LOC_BLANK;NUM_UNIQUE_OPERANDS;HALSTEAD_CONTENT;NUMBER_OF_LINES;HALSTEAD_VOLUME;HALSTEAD_LENGTH;LOC_TOTAL;LOC_EXECUTABLE;HALSTEAD_EFFORT;HALSTEAD_PROG_TIME;NUM_OPERANDS;LOC_COMMENTS;NUM_OPERATORS;HALSTEAD_ERROR_EST;NORMALIZED_CYLOMATIC_COMPLEXITY
+pc4,37,1166,TOPG,1,14.55588080000598,,LOC_CODE_AND_COMMENT;CYCLOMATIC_COMPLEXITY;LOC_COMMENTS;DECISION_DENSITY;CYCLOMATIC_DENSITY;CALL_PAIRS;ESSENTIAL_COMPLEXITY;LOC_BLANK;CONDITION_COUNT;NUM_OPERANDS;DESIGN_COMPLEXITY;BRANCH_COUNT;NUM_UNIQUE_OPERATORS;PERCENT_COMMENTS;DECISION_COUNT
+pc4,37,1166,ANOVA,1,0.0010159999364987016,,LOC_CODE_AND_COMMENT;DECISION_DENSITY;PERCENT_COMMENTS;LOC_TOTAL;NUM_OPERANDS;NUM_UNIQUE_OPERANDS;LOC_BLANK;HALSTEAD_LENGTH;MAINTENANCE_SEVERITY;HALSTEAD_VOLUME;HALSTEAD_ERROR_EST;NUM_OPERATORS;CYCLOMATIC_DENSITY;LOC_EXECUTABLE;NORMALIZED_CYLOMATIC_COMPLEXITY
+pc4,37,1166,mRMR,1,0.24559020006563514,,LOC_CODE_AND_COMMENT;PARAMETER_COUNT;CYCLOMATIC_DENSITY;HALSTEAD_CONTENT;ESSENTIAL_DENSITY;DESIGN_COMPLEXITY;DECISION_DENSITY;PERCENT_COMMENTS;HALSTEAD_LEVEL;NORMALIZED_CYLOMATIC_COMPLEXITY;MODIFIED_CONDITION_COUNT;MAINTENANCE_SEVERITY;HALSTEAD_PROG_TIME;LOC_COMMENTS;DESIGN_DENSITY
+pc4,37,1166,JMI,1,0.24442339991219342,,LOC_CODE_AND_COMMENT;PARAMETER_COUNT;CYCLOMATIC_DENSITY;HALSTEAD_CONTENT;ESSENTIAL_DENSITY;PERCENT_COMMENTS;DESIGN_COMPLEXITY;DECISION_DENSITY;LOC_COMMENTS;HALSTEAD_LEVEL;DECISION_COUNT;NORMALIZED_CYLOMATIC_COMPLEXITY;HALSTEAD_PROG_TIME;MAINTENANCE_SEVERITY;MODIFIED_CONDITION_COUNT
+pc4,37,1166,ReliefF,1,0.008692300063557923,,ESSENTIAL_DENSITY;LOC_CODE_AND_COMMENT;DECISION_COUNT;DECISION_DENSITY;MULTIPLE_CONDITION_COUNT;CONDITION_COUNT;MODIFIED_CONDITION_COUNT;HALSTEAD_EFFORT;HALSTEAD_PROG_TIME;HALSTEAD_ERROR_EST;HALSTEAD_VOLUME;NUM_OPERANDS;HALSTEAD_LENGTH;NUM_OPERATORS;PERCENT_COMMENTS
+pc4,37,1166,ElasticNet,1,0.04347419994883239,,LOC_CODE_AND_COMMENT;LOC_COMMENTS;CYCLOMATIC_DENSITY;DECISION_DENSITY;PERCENT_COMMENTS;LOC_TOTAL;NORMALIZED_CYLOMATIC_COMPLEXITY;DESIGN_COMPLEXITY;MAINTENANCE_SEVERITY;LOC_EXECUTABLE;ESSENTIAL_COMPLEXITY;BRANCH_COUNT;CYCLOMATIC_COMPLEXITY;NUM_UNIQUE_OPERATORS;HALSTEAD_LEVEL
+pc4,37,1166,Boruta,1,6.594405300100334,,LOC_BLANK;LOC_CODE_AND_COMMENT;CONDITION_COUNT;LOC_COMMENTS;CYCLOMATIC_DENSITY;DECISION_COUNT;DECISION_DENSITY;HALSTEAD_CONTENT;HALSTEAD_VOLUME;MODIFIED_CONDITION_COUNT;MULTIPLE_CONDITION_COUNT;NORMALIZED_CYLOMATIC_COMPLEXITY;HALSTEAD_EFFORT;PERCENT_COMMENTS;NUMBER_OF_LINES
+pc4,37,1166,SVM-RFE,1,0.08351949998177588,,BRANCH_COUNT;LOC_CODE_AND_COMMENT;DECISION_DENSITY;DECISION_COUNT;ESSENTIAL_COMPLEXITY;LOC_EXECUTABLE;HALSTEAD_DIFFICULTY;HALSTEAD_EFFORT;MODIFIED_CONDITION_COUNT;HALSTEAD_PROG_TIME;NORMALIZED_CYLOMATIC_COMPLEXITY;NODE_COUNT;NUMBER_OF_LINES;LOC_TOTAL;NUM_UNIQUE_OPERANDS
+pc4,37,1166,Stability Selection,1,0.03969480004161596,,PERCENT_COMMENTS;DECISION_DENSITY;LOC_CODE_AND_COMMENT;LOC_COMMENTS;CYCLOMATIC_DENSITY;MAINTENANCE_SEVERITY;ESSENTIAL_COMPLEXITY;HALSTEAD_DIFFICULTY;PARAMETER_COUNT;CALL_PAIRS;LOC_TOTAL;CYCLOMATIC_COMPLEXITY;LOC_BLANK;NUM_UNIQUE_OPERATORS;DESIGN_COMPLEXITY
+pc4,37,1166,HSIC-Lasso,1,0.23374190006870776,,LOC_CODE_AND_COMMENT;DECISION_DENSITY;HALSTEAD_CONTENT;PERCENT_COMMENTS;PARAMETER_COUNT;DESIGN_DENSITY;MODIFIED_CONDITION_COUNT;MAINTENANCE_SEVERITY;CYCLOMATIC_DENSITY;CALL_PAIRS;ESSENTIAL_DENSITY;MULTIPLE_CONDITION_COUNT
+pc4,37,1166,RF impurity,1,0.5895847999490798,,LOC_CODE_AND_COMMENT;PERCENT_COMMENTS;CYCLOMATIC_DENSITY;LOC_COMMENTS;LOC_BLANK;HALSTEAD_CONTENT;NUMBER_OF_LINES;LOC_TOTAL;HALSTEAD_EFFORT;HALSTEAD_DIFFICULTY;HALSTEAD_VOLUME;HALSTEAD_PROG_TIME;NUM_OPERANDS;LOC_EXECUTABLE;MULTIPLE_CONDITION_COUNT
+pc4,37,1166,RF permutation,1,4.480423599947244,,LOC_CODE_AND_COMMENT;LOC_COMMENTS;CYCLOMATIC_DENSITY;NUMBER_OF_LINES;MAINTENANCE_SEVERITY;CALL_PAIRS;PERCENT_COMMENTS;LOC_BLANK;NUM_UNIQUE_OPERATORS;NUM_OPERANDS;LOC_EXECUTABLE;NODE_COUNT;EDGE_COUNT;NUM_UNIQUE_OPERANDS;NORMALIZED_CYLOMATIC_COMPLEXITY
+pc4,37,1166,RF-RFE,1,0.9879116000374779,,LOC_CODE_AND_COMMENT;PERCENT_COMMENTS;CYCLOMATIC_DENSITY;LOC_COMMENTS;HALSTEAD_CONTENT;CONDITION_COUNT;LOC_BLANK;HALSTEAD_EFFORT;HALSTEAD_VOLUME;HALSTEAD_DIFFICULTY;NUM_OPERANDS;LOC_TOTAL;NUMBER_OF_LINES;NUM_OPERATORS;DECISION_COUNT
+pc4,37,1166,varSelRF,1,17.716540699941106,17.55,LOC_CODE_AND_COMMENT;LOC_TOTAL;PERCENT_COMMENTS;LOC_COMMENTS;LOC_EXECUTABLE;HALSTEAD_VOLUME;CONDITION_COUNT;MULTIPLE_CONDITION_COUNT;HALSTEAD_PROG_TIME;DECISION_COUNT;LOC_BLANK;HALSTEAD_EFFORT;CYCLOMATIC_DENSITY;HALSTEAD_LENGTH;NUM_OPERANDS
+pc4,37,1166,VSURF,1,41.93565390002914,41.76,LOC_CODE_AND_COMMENT;PERCENT_COMMENTS;LOC_COMMENTS;CONDITION_COUNT;LOC_BLANK;NUM_OPERANDS;LOC_TOTAL;MULTIPLE_CONDITION_COUNT;DECISION_COUNT;LOC_EXECUTABLE;CYCLOMATIC_DENSITY;NUM_UNIQUE_OPERANDS;HALSTEAD_DIFFICULTY;HALSTEAD_VOLUME;HALSTEAD_CONTENT
+PhishingWebsites,38,1200,TOPG,1,13.405571900075302,,SSLfinal_State_1;web_traffic_1;URL_of_Anchor_1;URL_of_Anchor_0;having_Sub_Domain_1;Prefix_Suffix_1;web_traffic_0;Domain_registeration_length_1;double_slash_redirecting_1;Links_in_tags_0;Submitting_to_email_1;Links_in_tags_1;Google_Index_1;HTTPS_token_1;Statistical_report_1
+PhishingWebsites,38,1200,ANOVA,1,0.0010397000005468726,,SSLfinal_State_1;web_traffic_1;URL_of_Anchor_1;having_Sub_Domain_1;SSLfinal_State_0;Prefix_Suffix_1;URL_of_Anchor_0;web_traffic_0;Request_URL_1;having_Sub_Domain_0;Domain_registeration_length_1;SFH_1;Google_Index_1;Links_in_tags_1;age_of_domain_1
+PhishingWebsites,38,1200,mRMR,1,0.25743450003210455,,SSLfinal_State_1;RightClick_1;URL_Length_0;web_traffic_1;Links_in_tags_0;URL_of_Anchor_1;Google_Index_1;having_Sub_Domain_1;Redirect_1;SSLfinal_State_0;Request_URL_1;Links_pointing_to_page_0;Prefix_Suffix_1;Page_Rank_1;SFH_0
+PhishingWebsites,38,1200,JMI,1,0.2521226000972092,,SSLfinal_State_1;Links_pointing_to_page_0;URL_of_Anchor_1;web_traffic_1;Request_URL_1;having_Sub_Domain_1;Prefix_Suffix_1;SSLfinal_State_0;Google_Index_1;RightClick_1;Redirect_1;Links_in_tags_0;web_traffic_0;URL_of_Anchor_0;URL_Length_0
+PhishingWebsites,38,1200,ReliefF,1,0.009422100032679737,,SSLfinal_State_1;URL_of_Anchor_1;URL_of_Anchor_0;Prefix_Suffix_1;on_mouseover_1;Favicon_1;popUpWidnow_1;Shortining_Service_1;SSLfinal_State_0;Iframe_1;Abnormal_URL_1;HTTPS_token_1;Redirect_1;RightClick_1;URL_Length_0
+PhishingWebsites,38,1200,ElasticNet,1,0.029065700015053153,,URL_of_Anchor_1;URL_of_Anchor_0;SSLfinal_State_1;Prefix_Suffix_1;having_IP_Address_1;Links_in_tags_0;web_traffic_0;SFH_0;Links_in_tags_1;Links_pointing_to_page_1;having_Sub_Domain_1;double_slash_redirecting_1;Google_Index_1;DNSRecord_1;web_traffic_1
+PhishingWebsites,38,1200,Boruta,1,4.47298290010076,,having_IP_Address_1;Shortining_Service_1;Prefix_Suffix_1;having_Sub_Domain_0;Domain_registeration_length_1;SSLfinal_State_1;SSLfinal_State_0;having_Sub_Domain_1;Request_URL_1;Abnormal_URL_1;SFH_1;SFH_0;Links_in_tags_1;Links_in_tags_0;URL_of_Anchor_1
+PhishingWebsites,38,1200,SVM-RFE,1,0.09507899999152869,,having_IP_Address_1;double_slash_redirecting_1;Prefix_Suffix_1;SSLfinal_State_1;port_1;Links_in_tags_0;URL_of_Anchor_1;URL_of_Anchor_0;Links_in_tags_1;DNSRecord_1;popUpWidnow_1;SFH_1;Google_Index_1;Links_pointing_to_page_1;web_traffic_1
+PhishingWebsites,38,1200,Stability Selection,1,0.04042860004119575,,web_traffic_1;Google_Index_1;URL_of_Anchor_0;SFH_1;URL_of_Anchor_1;web_traffic_0;Prefix_Suffix_1;having_Sub_Domain_1;SSLfinal_State_1;Request_URL_1;Links_in_tags_0;SFH_0;Links_in_tags_1;having_IP_Address_1;SSLfinal_State_0
+PhishingWebsites,38,1200,HSIC-Lasso,1,0.28443869994953275,,SSLfinal_State_1;web_traffic_1;URL_of_Anchor_1;having_Sub_Domain_1;Prefix_Suffix_1;Request_URL_1;SSLfinal_State_0;web_traffic_0;Domain_registeration_length_1;SFH_1;Google_Index_1;URL_of_Anchor_0;having_Sub_Domain_0;Links_in_tags_1;Links_pointing_to_page_0
+PhishingWebsites,38,1200,RF impurity,1,0.4145370000042021,,SSLfinal_State_1;URL_of_Anchor_1;URL_of_Anchor_0;web_traffic_1;having_Sub_Domain_1;Prefix_Suffix_1;SSLfinal_State_0;web_traffic_0;having_Sub_Domain_0;age_of_domain_1;Request_URL_1;Links_in_tags_0;Google_Index_1;Links_in_tags_1;Domain_registeration_length_1
+PhishingWebsites,38,1200,RF permutation,1,5.306238399934955,,SSLfinal_State_1;URL_of_Anchor_1;URL_of_Anchor_0;Prefix_Suffix_1;web_traffic_0;Google_Index_1;web_traffic_1;age_of_domain_1;Links_in_tags_0;SSLfinal_State_0;SFH_1;having_Sub_Domain_1;SFH_0;Page_Rank_1;DNSRecord_1
+PhishingWebsites,38,1200,RF-RFE,1,0.7077444000169635,,SSLfinal_State_1;URL_of_Anchor_1;URL_of_Anchor_0;web_traffic_1;having_Sub_Domain_1;Prefix_Suffix_1;SSLfinal_State_0;web_traffic_0;age_of_domain_1;Request_URL_1;having_Sub_Domain_0;Links_in_tags_0;having_IP_Address_1;Links_in_tags_1;DNSRecord_1
+PhishingWebsites,38,1200,varSelRF,1,26.179786799941212,26.0,SSLfinal_State_1;URL_of_Anchor_1;URL_of_Anchor_0;Prefix_Suffix_1;web_traffic_1;having_Sub_Domain_1;SSLfinal_State_0;web_traffic_0;having_Sub_Domain_0;Links_in_tags_1;Links_in_tags_0;Google_Index_1;Domain_registeration_length_1;age_of_domain_1;Request_URL_1
+PhishingWebsites,38,1200,VSURF,1,64.12322629999835,63.93,SSLfinal_State_1;Prefix_Suffix_1;URL_of_Anchor_1;URL_of_Anchor_0;web_traffic_1;web_traffic_0;having_Sub_Domain_1;SSLfinal_State_0;Links_in_tags_1;having_Sub_Domain_0;Links_in_tags_0;Google_Index_1;age_of_domain_1;Domain_registeration_length_1;DNSRecord_1
+qsar-biodeg,41,844,TOPG,1,20.881098399986513,,V36;V30;V34;V1;V22;V38;V12;V39;V21;V37;V27;V6;V16;V2;V19;V31;V8;V29;V5;V28
+qsar-biodeg,41,844,ANOVA,1,0.000874500023201108,,V1;V27;V22;V15;V39;V13;V7;V33;V3;V36;V34;V14;V38;V25;V11;V5;V8;V41;V6;V18
+qsar-biodeg,41,844,mRMR,1,0.3569145000074059,,V36;V30;V28;V23;V9;V19;V41;V14;V34;V1;V37;V40;V25;V29;V32;V26;V12;V20;V18;V31
+qsar-biodeg,41,844,JMI,1,0.3540371999843046,,V36;V30;V14;V1;V28;V37;V34;V25;V15;V18;V23;V19;V39;V40;V7;V31;V41;V27;V38;V22
+qsar-biodeg,41,844,ReliefF,1,0.007468999945558608,,V19;V26;V29;V24;V20;V36;V40;V39;V23;V4;V38;V21;V28;V32;V34;V22;V16;V11;V37;V17
+qsar-biodeg,41,844,ElasticNet,1,0.03394260001368821,,V7;V34;V8;V6;V37;V32;V13;V19;V10;V20;V3;V14;V38;V2;V1;V4;V25;V39;V41;V40
+qsar-biodeg,41,844,Boruta,1,6.372887899982743,,V1;V2;V3;V5;V7;V6;V8;V9;V13;V10;V11;V12;V15;V14;V16;V17;V30;V18;V23;V22
+qsar-biodeg,41,844,SVM-RFE,1,0.05782210000324994,,V1;V2;V3;V6;V8;V7;V15;V9;V14;V13;V32;V20;V30;V36;V35;V34;V37;V41;V38;V39
+qsar-biodeg,41,844,Stability Selection,1,0.04279430001042783,,V37;V10;V1;V3;V7;V20;V34;V25;V6;V40;V32;V38;V8;V13;V14;V19;V2;V39;V22;V31
+qsar-biodeg,41,844,HSIC-Lasso,1,0.20576079993043095,,V22;V1;V27;V12;V38;V33;V14;V40;V39;V34;V28;V3;V36;V13;V37;V10
+qsar-biodeg,41,844,RF impurity,1,0.519967700005509,,V36;V1;V39;V27;V22;V15;V13;V37;V18;V2;V8;V12;V17;V34;V14;V31;V38;V16;V10;V30
+qsar-biodeg,41,844,RF permutation,1,4.778036099974997,,V39;V1;V36;V34;V38;V13;V22;V11;V15;V27;V40;V2;V12;V8;V3;V5;V14;V7;V18;V9
+qsar-biodeg,41,844,RF-RFE,1,0.7652472000336275,,V36;V1;V39;V27;V22;V15;V18;V13;V12;V37;V34;V8;V2;V17;V16;V14;V31;V38;V10;V30
+qsar-biodeg,41,844,varSelRF,1,17.966335099888965,17.79,V36;V39;V1;V27;V22;V15;V13;V34;V38;V10;V16;V18;V30;V11;V37;V3;V12;V2;V17;V7
+qsar-biodeg,41,844,VSURF,1,40.8809529999271,40.71,V36;V39;V1;V22;V27;V34;V38;V16;V10;V37;V15;V13;V12;V18;V17;V30;V14;V11;V2;V3
+mfeat-zernike,47,1200,TOPG,1,38.290662899962626,,att6;att43;att45;att36;att19;att46;att31;att47;att28;att24;att23;att40;att27;att18;att37;att22;att7;att33;att44;att5
+mfeat-zernike,47,1200,ANOVA,1,0.0012890000361949205,,att6;att19;att43;att45;att29;att46;att22;att31;att38;att42;att40;att30;att11;att37;att21;att10;att24;att47;att32;att23
+mfeat-zernike,47,1200,mRMR,1,0.5727311999071389,,att6;att43;att40;att42;att22;att19;att47;att46;att31;att45;att28;att23;att17;att24;att32;att37;att11;att36;att33;att29
+mfeat-zernike,47,1200,JMI,1,0.5504941999679431,,att6;att43;att40;att42;att22;att45;att28;att47;att11;att46;att23;att31;att24;att32;att19;att36;att37;att33;att29;att38
+mfeat-zernike,47,1200,ReliefF,1,0.009732600068673491,,att6;att40;att17;att45;att29;att37;att32;att22;att39;att31;att11;att44;att18;att19;att28;att38;att27;att23;att46;att42
+mfeat-zernike,47,1200,ElasticNet,1,0.29116340004839003,,att24;att46;att28;att33;att6;att43;att47;att42;att19;att37;att29;att17;att18;att45;att5;att11;att13;att3;att40;att36
+mfeat-zernike,47,1200,Boruta,1,3.7782361999852583,,att1;att2;att3;att4;att5;att6;att7;att8;att9;att10;att11;att12;att13;att14;att15;att16;att17;att18;att19;att20
+mfeat-zernike,47,1200,SVM-RFE,1,0.12706090009305626,,att7;att6;att11;att10;att13;att12;att18;att17;att23;att19;att28;att29;att47;att40;att37;att33;att41;att43;att46;att45
+mfeat-zernike,47,1200,Stability Selection,1,2.7435130000812933,,att47;att46;att45;att44;att43;att42;att40;att33;att39;att37;att36;att34;att29;att30;att32;att3;att5;att6;att28;att27
+mfeat-zernike,47,1200,HSIC-Lasso,1,0.39306829997804016,,att43;att46;att6;att19;att45;att24;att22;att23;att28;att29;att30;att40;att32;att47;att37;att7;att33;att8;att1;att27
+mfeat-zernike,47,1200,RF impurity,1,1.400805399985984,,att19;att6;att29;att43;att45;att46;att40;att42;att37;att36;att24;att28;att18;att32;att33;att47;att23;att22;att30;att31
+mfeat-zernike,47,1200,RF permutation,1,8.061191900051199,,att45;att6;att40;att43;att19;att28;att24;att29;att17;att37;att42;att47;att46;att33;att13;att23;att36;att32;att39;att5
+mfeat-zernike,47,1200,RF-RFE,1,2.0185749999945983,,att6;att43;att19;att45;att29;att46;att37;att40;att21;att32;att42;att28;att36;att18;att24;att22;att47;att38;att17;att33
+mfeat-zernike,47,1200,varSelRF,1,44.65940309991129,44.46,att45;att6;att19;att40;att43;att46;att42;att29;att36;att28;att24;att37;att31;att38;att33;att22;att23;att47;att11;att32
+mfeat-zernike,47,1200,VSURF,1,140.5572342000669,140.36,att45;att6;att19;att43;att46;att40;att29;att37;att28;att24;att33;att18;att38;att32;att17;att5;att42;att36;att47;att31
+credit-g,48,800,TOPG,1,28.814315399969928,,checking_status_no_checking;duration;savings_status__100;credit_amount;checking_status__0;age;purpose_new_car;credit_history_critical/other_existing_credit;other_parties_guarantor;other_payment_plans_none;credit_history_no_credits/all_paid;purpose_repairs;property_magnitude_no_known_property;savings_status_no_known_savings;installment_commitment;employment__1;credit_history_existing_paid;own_telephone_yes;checking_status__=200;purpose_other
+credit-g,48,800,ANOVA,1,0.0012064001057296991,,checking_status_no_checking;checking_status__0;duration;credit_amount;credit_history_critical/other_existing_credit;savings_status__100;credit_history_no_credits/all_paid;property_magnitude_no_known_property;savings_status_no_known_savings;housing_own;property_magnitude_real_estate;purpose_new_car;employment__1;other_payment_plans_none;purpose_radio/tv;purpose_used_car;purpose_education;savings_status_500_=X_1000;foreign_worker_yes;age
+credit-g,48,800,mRMR,1,0.625041599967517,,checking_status__0;job_skilled;credit_history_critical/other_existing_credit;purpose_repairs;personal_status_male_div/sep;property_magnitude_real_estate;purpose_retraining;savings_status_500_=X_1000;other_payment_plans_stores;credit_history_no_credits/all_paid;checking_status__=200;own_telephone_yes;num_dependents;employment_4_=X_7;purpose_domestic_appliance;purpose_education;housing_rent;job_unemp/unskilled_non_res;property_magnitude_life_insurance;savings_status__=1000
+credit-g,48,800,JMI,1,0.6301655999850482,,checking_status__0;job_skilled;credit_history_critical/other_existing_credit;purpose_repairs;property_magnitude_real_estate;personal_status_male_div/sep;purpose_retraining;savings_status_500_=X_1000;own_telephone_yes;credit_history_no_credits/all_paid;checking_status__=200;job_unemp/unskilled_non_res;housing_rent;purpose_new_car;other_parties_guarantor;employment_4_=X_7;credit_amount;property_magnitude_life_insurance;residence_since;checking_status_no_checking
+credit-g,48,800,ReliefF,1,0.008235600078478456,,checking_status_no_checking;checking_status__0;savings_status__=1000;savings_status_no_known_savings;credit_history_delayed_previously;savings_status__100;property_magnitude_no_known_property;other_parties_guarantor;housing_own;other_parties_none;purpose_other;foreign_worker_yes;housing_rent;purpose_domestic_appliance;purpose_education;credit_history_critical/other_existing_credit;purpose_furniture/equipment;job_unemp/unskilled_non_res;checking_status__=200;personal_status_male_mar/wid
+credit-g,48,800,ElasticNet,1,0.01481750002130866,,checking_status_no_checking;credit_history_critical/other_existing_credit;credit_amount;duration;other_payment_plans_none;purpose_new_car;other_parties_guarantor;installment_commitment;purpose_used_car;foreign_worker_yes;purpose_other;checking_status__0;existing_credits;age;employment_4_=X_7;personal_status_male_single;savings_status__100;purpose_education;credit_history_existing_paid;credit_history_delayed_previously
+credit-g,48,800,Boruta,1,1.7883112999843433,,duration;credit_amount;checking_status__0;age;checking_status_no_checking;credit_history_critical/other_existing_credit;savings_status__100;savings_status_no_known_savings;installment_commitment;property_magnitude_real_estate;other_payment_plans_none;housing_own;property_magnitude_no_known_property;purpose_new_car;credit_history_no_credits/all_paid;purpose_used_car;employment__1;residence_since;savings_status_500_=X_1000;purpose_radio/tv
+credit-g,48,800,SVM-RFE,1,0.22175859997514635,,duration;credit_amount;installment_commitment;age;checking_status__0;credit_history_delayed_previously;credit_history_critical/other_existing_credit;checking_status_no_checking;purpose_education;credit_history_existing_paid;employment_unemployed;purpose_new_car;savings_status__100;savings_status_no_known_savings;other_parties_guarantor;personal_status_male_single;other_payment_plans_none;other_parties_none;job_skilled;foreign_worker_yes
+credit-g,48,800,Stability Selection,1,0.03748619998805225,,other_payment_plans_none;credit_history_critical/other_existing_credit;duration;checking_status__0;checking_status_no_checking;purpose_new_car;installment_commitment;other_parties_guarantor;purpose_used_car;purpose_education;foreign_worker_yes;employment_4_=X_7;age;purpose_other;savings_status__100;credit_history_no_credits/all_paid;property_magnitude_no_known_property;credit_amount;checking_status__=200;personal_status_male_single
+credit-g,48,800,HSIC-Lasso,1,0.32673630001954734,,checking_status_no_checking;duration;checking_status__0;credit_amount;savings_status__100;housing_own;credit_history_critical/other_existing_credit;credit_history_no_credits/all_paid;residence_since;other_payment_plans_none;age;purpose_new_car;property_magnitude_no_known_property;employment__1;purpose_furniture/equipment;property_magnitude_life_insurance;installment_commitment;personal_status_male_mar/wid;job_skilled;own_telephone_yes
+credit-g,48,800,RF impurity,1,0.5186408000299707,,credit_amount;age;duration;checking_status_no_checking;installment_commitment;residence_since;checking_status__0;savings_status__100;purpose_new_car;existing_credits;credit_history_critical/other_existing_credit;job_skilled;other_payment_plans_none;personal_status_male_single;property_magnitude_real_estate;own_telephone_yes;employment__1;housing_own;credit_history_existing_paid;property_magnitude_life_insurance
+credit-g,48,800,RF permutation,1,7.510944799985737,,checking_status_no_checking;duration;checking_status__0;age;other_payment_plans_none;savings_status__100;purpose_new_car;credit_amount;credit_history_critical/other_existing_credit;job_skilled;other_parties_guarantor;property_magnitude_no_known_property;employment__1;savings_status_no_known_savings;credit_history_no_credits/all_paid;existing_credits;job_unskilled_resident;personal_status_male_single;foreign_worker_yes;savings_status_500_=X_1000
+credit-g,48,800,RF-RFE,1,0.853531000087969,,credit_amount;age;duration;checking_status_no_checking;installment_commitment;residence_since;checking_status__0;savings_status__100;purpose_new_car;other_payment_plans_none;job_skilled;existing_credits;personal_status_male_single;own_telephone_yes;credit_history_critical/other_existing_credit;housing_own;employment__1;credit_history_existing_paid;property_magnitude_real_estate;property_magnitude_no_known_property
+credit-g,48,800,varSelRF,1,25.542589299962856,25.37,checking_status_no_checking;duration;checking_status__0;credit_amount;credit_history_critical/other_existing_credit;age;savings_status__100;property_magnitude_real_estate;property_magnitude_no_known_property;installment_commitment;savings_status_no_known_savings;other_payment_plans_none;housing_own;purpose_new_car;credit_history_existing_paid;existing_credits;other_parties_guarantor;credit_history_no_credits/all_paid;residence_since;employment__1
+credit-g,48,800,VSURF,1,56.154687299975194,55.98,checking_status_no_checking;duration;credit_amount;checking_status__0;age;credit_history_critical/other_existing_credit;savings_status__100;other_payment_plans_none;installment_commitment;savings_status_no_known_savings;property_magnitude_no_known_property;purpose_new_car;property_magnitude_real_estate;other_parties_guarantor;employment__1;residence_since;existing_credits;credit_history_existing_paid;other_parties_none;employment_unemployed
+first-order-theorem-proving,51,1200,TOPG,1,47.314515899983235,,V17;V4;V31;V25;V36;V11;V22;V45;V15;V13;V29;V16;V9;V20;V38;V18;V48;V51;V35;V1
+first-order-theorem-proving,51,1200,ANOVA,1,0.0013894999865442514,,V10;V12;V22;V18;V11;V24;V19;V27;V25;V35;V23;V26;V20;V36;V29;V38;V14;V32;V7;V33
+first-order-theorem-proving,51,1200,mRMR,1,0.7940169000066817,,V13;V17;V3;V19;V45;V36;V16;V12;V50;V29;V43;V15;V11;V23;V5;V42;V46;V9;V21;V2
+first-order-theorem-proving,51,1200,JMI,1,0.7983698999742046,,V13;V17;V3;V11;V16;V19;V36;V45;V12;V5;V29;V15;V50;V23;V4;V46;V9;V38;V21;V2
+first-order-theorem-proving,51,1200,ReliefF,1,0.010862000053748488,,V45;V6;V2;V22;V51;V24;V49;V26;V21;V36;V3;V35;V8;V43;V27;V5;V40;V11;V16;V33
+first-order-theorem-proving,51,1200,ElasticNet,1,0.19849440001416951,,V45;V25;V19;V8;V15;V20;V30;V16;V17;V12;V38;V35;V18;V9;V51;V10;V27;V23;V24;V2
+first-order-theorem-proving,51,1200,Boruta,1,17.7817597000394,,V3;V6;V7;V13;V12;V11;V10;V9;V15;V14;V16;V28;V22;V23;V19;V17;V29;V32;V26;V25
+first-order-theorem-proving,51,1200,SVM-RFE,1,0.772187800030224,,V1;V4;V8;V5;V12;V11;V10;V9;V13;V15;V16;V17;V25;V29;V23;V39;V44;V45;V38;V49
+first-order-theorem-proving,51,1200,Stability Selection,1,2.155039899982512,,V43;V46;V45;V35;V34;V38;V40;V18;V2;V11;V12;V16;V10;V24;V20;V19;V22;V31;V36;V23
+first-order-theorem-proving,51,1200,HSIC-Lasso,1,0.518229499924928,,V35;V19;V22;V16;V20;V6;V2;V46;V50;V40;V23;V24;V33;V5;V18;V25;V45;V10;V34;V43
+first-order-theorem-proving,51,1200,RF impurity,1,1.5902818000176921,,V15;V13;V25;V29;V11;V27;V16;V19;V23;V38;V17;V3;V6;V21;V12;V46;V39;V41;V5;V45
+first-order-theorem-proving,51,1200,RF permutation,1,10.810187800088897,,V13;V25;V12;V45;V10;V11;V38;V43;V29;V22;V33;V24;V48;V3;V15;V39;V41;V6;V37;V21
+first-order-theorem-proving,51,1200,RF-RFE,1,2.420834599994123,,V13;V15;V25;V29;V11;V17;V27;V16;V23;V19;V38;V6;V39;V21;V3;V45;V5;V46;V49;V4
+first-order-theorem-proving,51,1200,varSelRF,1,56.275377799989656,56.06,V13;V17;V11;V25;V12;V38;V19;V45;V3;V41;V39;V27;V37;V31;V15;V36;V10;V29;V6;V18
+first-order-theorem-proving,51,1200,VSURF,1,150.171860500006,149.97,V25;V13;V12;V17;V38;V11;V19;V15;V45;V36;V10;V3;V27;V29;V31;V6;V16;V46;V35;V48
+spambase,57,1200,TOPG,1,42.38971280003898,,char_freq_%21;char_freq_%24;word_freq_remove;capital_run_length_average;word_freq_free;word_freq_hp;word_freq_your;capital_run_length_total;capital_run_length_longest;word_freq_edu;char_freq_%23;word_freq_business;word_freq_internet;word_freq_george;word_freq_you;word_freq_conference;char_freq_%5B;word_freq_1999;word_freq_data;word_freq_our
+spambase,57,1200,ANOVA,1,0.0013399000745266676,,word_freq_your;char_freq_%24;word_freq_remove;word_freq_000;char_freq_%21;word_freq_money;capital_run_length_longest;word_freq_you;word_freq_receive;word_freq_business;word_freq_hp;word_freq_free;word_freq_hpl;capital_run_length_total;word_freq_order;word_freq_email;word_freq_over;word_freq_1999;word_freq_credit;word_freq_internet
+spambase,57,1200,mRMR,1,0.8430117999669164,,char_freq_%21;word_freq_remove;capital_run_length_average;word_freq_internet;capital_run_length_total;word_freq_free;char_freq_%24;word_freq_address;word_freq_your;word_freq_hp;word_freq_our;capital_run_length_longest;word_freq_money;word_freq_george;word_freq_pm;char_freq_%23;word_freq_000;char_freq_%3B;word_freq_credit;word_freq_all
+spambase,57,1200,JMI,1,0.8519798000343144,,char_freq_%21;capital_run_length_longest;word_freq_remove;word_freq_your;char_freq_%24;capital_run_length_average;word_freq_free;word_freq_hp;capital_run_length_total;word_freq_money;word_freq_our;word_freq_internet;word_freq_george;word_freq_000;word_freq_address;word_freq_all;word_freq_hpl;word_freq_credit;word_freq_you;word_freq_pm
+spambase,57,1200,ReliefF,1,0.011816599988378584,,word_freq_table;word_freq_project;capital_run_length_average;word_freq_font;word_freq_conference;word_freq_cs;word_freq_george;char_freq_%23;word_freq_857;word_freq_free;word_freq_parts;word_freq_internet;word_freq_telnet;word_freq_address;word_freq_direct;char_freq_%24;word_freq_415;word_freq_85;char_freq_%3B;word_freq_lab
+spambase,57,1200,ElasticNet,1,0.07901240000501275,,word_freq_remove;word_freq_george;word_freq_hp;word_freq_000;word_freq_edu;char_freq_%24;word_freq_meeting;word_freq_money;word_freq_labs;word_freq_free;char_freq_%21;word_freq_conference;word_freq_re;word_freq_report;word_freq_project;word_freq_your;word_freq_credit;word_freq_business;word_freq_pm;word_freq_font
+spambase,57,1200,Boruta,1,9.54035699996166,,word_freq_address;word_freq_all;word_freq_over;word_freq_our;word_freq_remove;word_freq_internet;word_freq_receive;word_freq_mail;word_freq_free;word_freq_money;word_freq_000;word_freq_your;word_freq_credit;word_freq_you;word_freq_email;word_freq_business;word_freq_lab;word_freq_hpl;word_freq_george;word_freq_650
+spambase,57,1200,SVM-RFE,1,0.15901079995092005,,word_freq_remove;word_freq_free;word_freq_labs;word_freq_money;word_freq_your;word_freq_000;word_freq_lab;word_freq_telnet;word_freq_hp;word_freq_george;word_freq_credit;word_freq_business;word_freq_table;word_freq_project;word_freq_edu;word_freq_pm;capital_run_length_longest;char_freq_%24;word_freq_meeting;word_freq_re
+spambase,57,1200,Stability Selection,1,0.04681980004534125,,capital_run_length_total;char_freq_%24;char_freq_%21;word_freq_edu;word_freq_conference;word_freq_business;word_freq_email;word_freq_george;word_freq_hp;word_freq_money;word_freq_000;word_freq_font;word_freq_your;word_freq_free;word_freq_our;word_freq_remove;word_freq_internet;capital_run_length_longest;word_freq_meeting;word_freq_re
+spambase,57,1200,HSIC-Lasso,1,0.5531737999990582,,char_freq_%21;char_freq_%24;word_freq_your;capital_run_length_average;word_freq_free;word_freq_remove;word_freq_hp;word_freq_our;word_freq_you;word_freq_money;word_freq_internet;word_freq_george;word_freq_1999;word_freq_edu;capital_run_length_longest;word_freq_all;word_freq_business;word_freq_over;word_freq_hpl;word_freq_000
+spambase,57,1200,RF impurity,1,0.7211835999041796,,char_freq_%21;char_freq_%24;word_freq_remove;capital_run_length_average;word_freq_free;word_freq_your;capital_run_length_longest;capital_run_length_total;word_freq_hp;word_freq_you;word_freq_money;word_freq_our;word_freq_000;word_freq_internet;word_freq_george;word_freq_edu;char_freq_%28;word_freq_business;word_freq_hpl;word_freq_1999
+spambase,57,1200,RF permutation,1,9.181783099891618,,word_freq_remove;capital_run_length_average;word_freq_hp;char_freq_%21;word_freq_free;char_freq_%24;word_freq_internet;word_freq_your;word_freq_000;word_freq_george;word_freq_report;capital_run_length_longest;word_freq_hpl;word_freq_business;word_freq_money;word_freq_1999;word_freq_re;word_freq_labs;word_freq_edu;word_freq_pm
+spambase,57,1200,RF-RFE,1,1.3066172000253573,,char_freq_%21;char_freq_%24;word_freq_remove;capital_run_length_average;word_freq_free;word_freq_your;capital_run_length_longest;word_freq_hp;capital_run_length_total;word_freq_money;word_freq_our;word_freq_you;char_freq_%28;word_freq_george;word_freq_internet;word_freq_edu;word_freq_1999;word_freq_000;word_freq_will;word_freq_business
+spambase,57,1200,varSelRF,1,36.94565539993346,36.76,word_freq_remove;char_freq_%21;capital_run_length_average;char_freq_%24;word_freq_hp;capital_run_length_longest;word_freq_free;word_freq_your;capital_run_length_total;word_freq_000;word_freq_george;word_freq_you;word_freq_money;word_freq_edu;word_freq_hpl;word_freq_internet;word_freq_our;word_freq_business;word_freq_1999;word_freq_receive
+spambase,57,1200,VSURF,1,118.35570659989025,118.17,word_freq_remove;char_freq_%21;capital_run_length_average;char_freq_%24;word_freq_hp;capital_run_length_longest;word_freq_free;word_freq_george;word_freq_edu;word_freq_business;word_freq_receive;word_freq_your;capital_run_length_total;word_freq_000;word_freq_money;word_freq_internet;word_freq_you;word_freq_hpl;word_freq_our;word_freq_report
+ozone-level-8hr,72,1200,TOPG,1,64.09176199999638,,V42;V1;V13;V50;V2;V41;V68;V56;V69;V33;V40;V12;V6;V21;V11;V32;V39;V15;V14;V5
+ozone-level-8hr,72,1200,ANOVA,1,0.0013864999637007713,,V41;V42;V43;V40;V44;V51;V39;V45;V13;V38;V12;V46;V11;V26;V3;V37;V1;V47;V2;V4
+ozone-level-8hr,72,1200,mRMR,1,1.108977199997753,,V41;V21;V64;V72;V57;V9;V54;V55;V71;V18;V42;V59;V22;V66;V58;V8;V24;V53;V2;V16
+ozone-level-8hr,72,1200,JMI,1,1.130942599964328,,V41;V21;V64;V72;V55;V54;V9;V71;V16;V40;V66;V22;V57;V59;V42;V20;V2;V53;V8;V24
+ozone-level-8hr,72,1200,ReliefF,1,0.01151779992505908,,V52;V48;V72;V35;V47;V34;V33;V36;V46;V45;V38;V49;V32;V39;V51;V50;V29;V30;V31;V40
+ozone-level-8hr,72,1200,ElasticNet,1,0.08121630002278835,,V53;V70;V58;V32;V31;V24;V40;V68;V69;V38;V13;V57;V3;V17;V19;V25;V33;V16;V4;V8
+ozone-level-8hr,72,1200,Boruta,1,16.765844900044613,,V1;V2;V3;V4;V5;V7;V13;V12;V14;V32;V26;V23;V52;V51;V54;V61;V49;V50;V48;V47
+ozone-level-8hr,72,1200,SVM-RFE,1,0.12653589993715286,,V27;V29;V31;V22;V51;V53;V62;V45;V43;V48;V46;V40;V37;V38;V35;V33;V57;V70;V67;V68
+ozone-level-8hr,72,1200,Stability Selection,1,0.10276600008364767,,V13;V54;V1;V70;V64;V56;V11;V59;V24;V40;V55;V2;V61;V42;V3;V41;V19;V10;V66;V12
+ozone-level-8hr,72,1200,HSIC-Lasso,1,0.6643720999127254,,V42;V55;V13;V61;V10;V1;V12;V60;V5;V41;V11;V18;V25;V64;V70;V7;V15;V53;V54;V24
+ozone-level-8hr,72,1200,RF impurity,1,1.2015916999662295,,V1;V53;V33;V13;V2;V69;V68;V43;V32;V42;V40;V41;V64;V12;V56;V3;V61;V39;V11;V50
+ozone-level-8hr,72,1200,RF permutation,1,10.644078399986029,,V33;V41;V32;V42;V31;V53;V61;V30;V28;V40;V1;V69;V2;V13;V29;V44;V39;V37;V43;V34
+ozone-level-8hr,72,1200,RF-RFE,1,1.8957926000002772,,V53;V1;V13;V33;V42;V68;V32;V55;V69;V40;V43;V64;V48;V12;V2;V29;V41;V3;V66;V44
+ozone-level-8hr,72,1200,varSelRF,1,29.908330399892293,29.69,V41;V42;V33;V31;V32;V40;V36;V30;V43;V39;V29;V28;V27;V53;V38;V37;V35;V44;V51;V34
+ozone-level-8hr,72,1200,VSURF,1,117.26882050000131,117.05,V41;V33;V36;V32;V27;V2;V1;V42;V53;V40;V31;V43;V67;V68;V28;V3;V29;V30;V69;V13
+mfeat-fourier,76,1200,TOPG,1,68.22405409999192,,att73;att7;att2;att76;att1;att74;att5;att10;att8;att9;att3;att14;att12;att75;att71;att13;att6;att40;att62;att67
+mfeat-fourier,76,1200,ANOVA,1,0.0013825999340042472,,att2;att7;att76;att73;att74;att5;att3;att1;att6;att14;att72;att8;att71;att9;att69;att13;att10;att11;att18;att75
+mfeat-fourier,76,1200,mRMR,1,1.0230379999848083,,att73;att74;att5;att7;att2;att6;att1;att76;att3;att14;att71;att69;att9;att12;att11;att15;att70;att72;att4;att10
+mfeat-fourier,76,1200,JMI,1,1.053810799960047,,att73;att7;att74;att2;att5;att6;att76;att1;att3;att71;att69;att9;att14;att11;att72;att8;att12;att70;att13;att10
+mfeat-fourier,76,1200,ReliefF,1,0.012633500038646162,,att73;att7;att6;att2;att1;att5;att10;att74;att3;att9;att8;att69;att75;att71;att11;att70;att76;att13;att12;att4
+mfeat-fourier,76,1200,ElasticNet,1,0.4731254999060184,,att2;att3;att76;att73;att74;att8;att1;att7;att5;att14;att4;att10;att11;att13;att9;att12;att19;att75;att48;att72
+mfeat-fourier,76,1200,Boruta,1,30.186014900100417,,att1;att2;att3;att4;att5;att6;att7;att8;att9;att10;att11;att12;att13;att14;att15;att16;att17;att18;att19;att20
+mfeat-fourier,76,1200,SVM-RFE,1,0.19463589997030795,,att1;att2;att3;att4;att5;att6;att7;att8;att9;att10;att14;att13;att26;att17;att69;att71;att73;att74;att75;att76
+mfeat-fourier,76,1200,Stability Selection,1,4.400186200044118,,att76;att75;att74;att73;att72;att71;att11;att10;att12;att13;att40;att51;att16;att14;att18;att26;att17;att1;att9;att8
+mfeat-fourier,76,1200,HSIC-Lasso,1,0.5576297999359667,,att7;att2;att73;att74;att1;att76;att6;att5;att14;att3;att71;att9;att12;att70;att75;att72;att65;att69;att18;att15
+mfeat-fourier,76,1200,RF impurity,1,1.6957783000543714,,att7;att73;att2;att74;att6;att76;att5;att1;att3;att14;att9;att8;att71;att10;att72;att69;att70;att75;att11;att4
+mfeat-fourier,76,1200,RF permutation,1,12.29157869995106,,att2;att7;att76;att74;att1;att5;att3;att73;att8;att6;att9;att14;att13;att69;att4;att18;att12;att11;att17;att51
+mfeat-fourier,76,1200,RF-RFE,1,2.472440500045195,,att73;att7;att2;att74;att1;att76;att5;att6;att3;att8;att14;att10;att9;att71;att72;att4;att75;att12;att11;att13
+mfeat-fourier,76,1200,varSelRF,1,57.703794199973345,57.47,att2;att73;att74;att7;att76;att1;att5;att6;att3;att8;att14;att9;att71;att69;att10;att72;att11;att75;att70;att13
+mfeat-fourier,76,1200,VSURF,1,191.15429960004985,190.92,att2;att73;att7;att74;att76;att1;att5;att3;att6;att8;att71;att9;att10;att14;att72;att69;att12;att75;att13;att11
+cylinder-bands,143,432,TOPG,1,68.57011189998593,,ink_pct;roller_durometer;type_on_cylinder_yes;press_type_woodhoe70;ESA_Voltage;hardener;varnish_pct;press_speed;solvent_pct;cylinder_size_spiegel;humifity;current_density_40;press_type_motter70;press_815;caliper_0.3;caliper_0.2;paper_mill_location_northus;roughness;customer_sears;paper_type_super
+cylinder-bands,143,432,ANOVA,1,0.0016688000177964568,,ESA_Voltage;paper_type_super;press_815;press_speed;ink_type_cover;current_density_40;current_density_35;caliper_0.300;press_type_woodhoe70;paper_mill_location_northus;customer_roses;customer_woolworth;chrome_content_95;press_type_motter70;press_813;humifity;caliper_0.200;ink_type_uncoated;customer_kmart;type_on_cylinder_yes
+cylinder-bands,143,432,mRMR,1,1.4909743999596685,,job_number;customer_childworld;solvent_type_naptha;solvent_pct;caliper_0.5;ink_pct;ink_type_cover;anode_space_ratio;caliper_0.35;customer_hanhouse;customer_hanoverhouse;customer_belk;customer_homeshopping;customer_competitivedge;customer_bestprod;caliper_0.133;blade_mfg_uddeholm;caliper_0.467;chrome_content_95;customer_brendls
+cylinder-bands,143,432,JMI,1,1.4933757999679074,,job_number;customer_childworld;varnish_pct;anode_space_ratio;ink_type_cover;solvent_type_naptha;caliper_0.5;customer_belk;ink_pct;solvent_pct;customer_hanoverhouse;caliper_0.35;customer_homeshopping;customer_hanhouse;chrome_content_95;customer_competitivedge;caliper_0.133;customer_bestprod;press_824;paper_type_super
+cylinder-bands,143,432,ReliefF,1,0.006647199974395335,,press_815;paper_type_super;press_speed;press_type_woodhoe70;type_on_cylinder_yes;paper_type_uncoated;customer_woolwrth;caliper_0.200;press_type_motter94;job_number;press_813;press_type_motter70;blade_pressure;viscosity;paper_mill_location_southus;caliper_0.300;chrome_content_95;roughness;caliper_0.2;wax
+cylinder-bands,143,432,ElasticNet,1,0.05459219997283071,,press_815;press_speed;paper_type_super;customer_woolworth;paper_mill_location_northus;ESA_Voltage;current_density_40;wax;customer_exxon;press_type_woodhoe70;type_on_cylinder_yes;customer_hanoverhouse;customer_woolwrth;cylinder_size_spiegel;current_density_33;caliper_0.300;chrome_content_95;varnish_pct;customer_sears;viscosity
+cylinder-bands,143,432,Boruta,1,3.91781000001356,,job_number;proof_cut;humifity;ESA_Voltage;solvent_pct;ink_pct;press_speed;varnish_pct;roller_durometer;press_815;ink_temperature;viscosity;paper_type_super;hardener;press_type_woodhoe70;current_density_40;current_density_35;wax;paper_mill_location_northus;anode_space_ratio
+cylinder-bands,143,432,SVM-RFE,1,0.09292249998543411,,viscosity;blade_pressure;press_speed;varnish_pct;ESA_Voltage;roller_durometer;customer_hanoverhouse;customer_exxon;type_on_cylinder_yes;press_type_motter94;press_815;press_816;cylinder_size_spiegel;cylinder_size_tabloid;customer_woolworth;paper_type_super;press_821;chrome_content_95;current_density_40;current_density_33
+cylinder-bands,143,432,Stability Selection,1,0.042579100001603365,,customer_woolworth;paper_type_super;press_815;ESA_Voltage;press_speed;customer_campingworld;ink_type_cover;press_type_woodhoe70;customer_kmart;press_type_motter70;current_density_35;wax;press_813;type_on_cylinder_yes;customer_woolwrth;customer_exxon;ink_type_uncoated;customer_hanoverhouse;customer_cvs;paper_mill_location_northus
+cylinder-bands,143,432,HSIC-Lasso,1,0.32516010000836104,,press_815;hardener;viscosity;proof_cut;ESA_Voltage;press_speed;ink_temperature;press_816;paper_mill_location_northus;job_number;humifity;roller_durometer;current_density_40;caliper_0.3;plating_tank_1911;paper_type_super;customer_kmart;ink_type_cover;type_on_cylinder_yes;solvent_pct
+cylinder-bands,143,432,RF impurity,1,0.349326099967584,,press_speed;job_number;ink_pct;viscosity;humifity;ink_temperature;solvent_pct;varnish_pct;ESA_Voltage;roller_durometer;proof_cut;hardener;anode_space_ratio;blade_pressure;wax;roughness;unit_number;press_815;press_type_woodhoe70;current_density_40
+cylinder-bands,143,432,RF permutation,1,13.801603100029752,,ESA_Voltage;hardener;current_density_40;wax;press_speed;unit_number;humifity;current_density_35;roller_durometer;viscosity;ink_pct;ink_temperature;type_on_cylinder_yes;ink_type_cover;varnish_pct;paper_mill_location_northus;grain_screened_yes;anode_space_ratio;customer_woolworth;caliper_0.2
+cylinder-bands,143,432,RF-RFE,1,0.7351467000553384,,press_speed;ink_pct;job_number;roller_durometer;humifity;ink_temperature;viscosity;ESA_Voltage;solvent_pct;varnish_pct;anode_space_ratio;proof_cut;hardener;wax;blade_pressure;roughness;unit_number;press_815;press_type_woodhoe70;current_density_40
+cylinder-bands,143,432,varSelRF,1,23.154578399960883,22.98,roller_durometer;varnish_pct;press_speed;ink_pct;ESA_Voltage;press_type_woodhoe70;press_815;job_number;ink_type_uncoated;solvent_pct;viscosity;hardener;proof_cut;paper_mill_location_northus;press_type_motter94;current_density_40;humifity;wax;grain_screened_yes;ink_temperature
+cylinder-bands,143,432,VSURF,1,73.38361980009358,73.22,roller_durometer;press_speed;varnish_pct;ESA_Voltage;press_type_woodhoe70;job_number;viscosity;hardener;current_density_40;blade_pressure;press_type_motter70;ink_pct;press_815;humifity;solvent_pct;ink_type_uncoated;ink_temperature;proof_cut;wax;paper_mill_location_northus
+nomao,145,1200,TOPG,1,83.778436099994,,V6;V97;V92_3;V30;V7_2;V89;V100_2;V4;V60;V10;V90;V100_3;V91;V96_3;V95;V3;V114;V28;V98;V14
+nomao,145,1200,ANOVA,1,0.0019186000572517514,,V1;V4;V6;V3;V2;V100_3;V7_2;V97;V99;V100_2;V98;V5;V60;V65;V59;V91;V57;V28;V30;V27
+nomao,145,1200,mRMR,1,1.7436947000678629,,V6;V19;V97;V113;V84;V90;V37;V4;V105;V43;V100_2;V96_3;V10;V3;V96_2;V98;V118;V91;V64_3;V1
+nomao,145,1200,JMI,1,1.7069765999913216,,V6;V97;V105;V91;V4;V113;V98;V3;V19;V100_2;V10;V1;V90;V37;V99;V118;V7_2;V60;V84;V100_3
+nomao,145,1200,ReliefF,1,0.016762700048275292,,V1;V9;V47_2;V48_2;V56_2;V96_3;V88_2;V87_2;V50;V55_2;V53;V86;V85;V82;V81;V84;V83;V87_3;V88_3;V54
+nomao,145,1200,ElasticNet,1,0.1479551000520587,,V92_3;V100_3;V61;V1;V8_2;V4;V6;V102;V62;V16_3;V59;V98;V100_2;V90;V89;V65;V114;V3;V110;V34
+nomao,145,1200,Boruta,1,10.800416000070982,,V1;V2;V3;V4;V5;V6;V25;V26;V27;V28;V30;V29;V61;V62;V60;V59;V65;V66;V58;V67
+nomao,145,1200,SVM-RFE,1,0.23568789998535067,,V4;V3;V10;V6;V17;V12;V28;V22;V35;V38;V70;V69;V58;V62;V61;V59;V107;V8_2;V100_3;V92_3
+nomao,145,1200,Stability Selection,1,0.12413830007426441,,V100_3;V92_3;V16_3;V1;V4;V39_2;V79_3;V98;V65;V90;V30;V114;V97;V61;V110;V89;V6;V23_2;V91;V25
+nomao,145,1200,HSIC-Lasso,1,0.9083870999747887,,V1;V100_3;V97;V65;V31_2;V6;V90;V60;V92_2;V92_3;V4;V57;V47_3;V105;V79_3;V98;V30;V25;V100_2;V71_2
+nomao,145,1200,RF impurity,1,0.5529026000294834,,V6;V4;V1;V3;V2;V97;V99;V90;V91;V100_3;V98;V89;V7_2;V92_3;V5;V59;V60;V100_2;V62;V30
+nomao,145,1200,RF permutation,1,16.201545599964447,,V6;V4;V89;V90;V91;V92_3;V3;V1;V115;V92_2;V65;V114;V113;V5;V11;V13;V106;V64_3;V39_2;V109
+nomao,145,1200,RF-RFE,1,1.0899780000327155,,V6;V4;V1;V2;V3;V99;V90;V89;V60;V97;V59;V98;V91;V92_3;V61;V30;V100_3;V5;V28;V7_2
+nomao,145,1200,varSelRF,1,52.76784530002624,52.53,V6;V4;V1;V3;V90;V91;V2;V89;V97;V98;V99;V92_3;V7_2;V100_3;V60;V59;V62;V5;V30;V100_2
+nomao,145,1200,VSURF,1,216.68314620002639,216.45,V6;V4;V1;V90;V89;V97;V59;V60;V30;V68;V5;V114;V91;V3;V62;V92_3;V99;V98;V7_2;V2
+madelon,500,1200,TOPG,1,192.696175100049,,V242;V339;V379;V319;V154;V494;V106;V476;V282;V49;V452;V473;V443;V176;V199;V434;V454;V320;V29;V349
+madelon,500,1200,ANOVA,1,0.00463300000410527,,V476;V242;V333;V424;V337;V65;V339;V129;V106;V379;V49;V443;V473;V494;V454;V446;V474;V199;V497;V40
+madelon,500,1200,mRMR,1,3.683020199998282,,V242;V139;V52;V349;V217;V424;V255;V163;V446;V470;V74;V365;V83;V275;V5;V453;V24;V246;V144;V45
+madelon,500,1200,JMI,1,2.3811839999398217,,V476;V149;V326;V482;V40;V388;V17;V335;V256;V195;V246;V249;V129;V283;V257;V221;V237;V244;V245;V184
+madelon,500,1200,ReliefF,1,0.04036320000886917,,V242;V476;V482;V339;V443;V473;V196;V49;V379;V208;V364;V481;V129;V13;V6;V392;V211;V395;V257;V329
+madelon,500,1200,ElasticNet,1,0.5098450999939814,,V242;V49;V120;V309;V89;V119;V359;V425;V349;V246;V198;V482;V266;V499;V80;V224;V208;V476;V179;V299
+madelon,500,1200,Boruta,1,16.008634800091386,,V476;V242;V494;V454;V443;V473;V49;V319;V29;V452;V339;V129;V337;V65;V154;V106;V379;V282;V434;V11
+madelon,500,1200,SVM-RFE,1,28.38457550003659,,V499;V19;V482;V476;V443;V452;V49;V326;V80;V214;V242;V246;V65;V106;V120;V89;V139;V497;V494;V8
+madelon,500,1200,Stability Selection,1,0.9070680999429896,,V425;V309;V349;V120;V139;V299;V497;V89;V482;V326;V375;V198;V185;V246;V263;V446;V17;V7;V8;V162
+madelon,500,1200,HSIC-Lasso,1,2.8498255000449717,,V242;V339;V260;V483;V369;V217;V191;V492;V136;V118;V326;V19;V238;V99;V76;V42;V277;V400;V384;V194
+madelon,500,1200,RF impurity,1,3.267822500085458,,V242;V476;V339;V106;V454;V337;V443;V65;V129;V379;V473;V319;V494;V49;V154;V29;V434;V282;V452;V80
+madelon,500,1200,RF permutation,1,67.20460910000838,,V242;V476;V339;V379;V443;V337;V473;V49;V154;V454;V319;V494;V282;V434;V452;V29;V65;V383;V384;V129
+madelon,500,1200,RF-RFE,1,5.105275499983691,,V379;V339;V49;V106;V242;V476;V443;V129;V473;V319;V494;V154;V29;V337;V452;V454;V434;V65;V282;V11
+madelon,500,1200,varSelRF,1,282.1602786000585,281.78,V476;V242;V339;V106;V337;V65;V379;V454;V129;V443;V494;V473;V49;V154;V319;V29;V434;V282;V452;V456
+madelon,500,1200,VSURF,1,293.8259022999555,293.44,V476;V339;V49;V154;V319;V106;V443;V242;V379;V434;V282;V29;V452;V473;V129;V454;V494;V337;V65;V456
+Internet-Advertisements,1558,1200,TOPG,1,119.30494329996873,,width;ancurl.com_1;url.ads_1;ancurl.click_1;height;url.ad_1;aratio;url.468x60_1;url.tvgen.com_1;url.images_1;ancurl.area_1;url.images.go2net.com_1;ancurl.redirect.dll_1;ancurl.adclick_1;ancurl.adclick.exe_1;ancurl.geocities.com_1;ancurl.http.www_1;url.memberbanners_1;alt.visit.our_1;alt.click_1
+Internet-Advertisements,1558,1200,ANOVA,1,0.0174780999077484,,ancurl.com_1;ancurl.click_1;url.ads_1;ancurl.ng_1;width;ancurl.redirect_1;ancurl.type_1;ancurl.adid_1;ancurl.2f_1;alt.click_1;ancurl.redirect.http_1;ancurl.http.2f_1;ancurl.runid_1;ancurl.type.click_1;ancurl.profileid_1;ancurl.event_1;ancurl.event.ng_1;ancurl.ng.type_1;alt.click.here_1;alt.here_1
+Internet-Advertisements,1558,1200,mRMR,1,3.7052991000236943,,width;origurl.story_1;url.marketing_1;url.ads.msn.com_1;origurl.paper.1998_1;ancurl.site.sw_1;ancurl.2fcgi_1;ancurl.magic_1;ancurl.uk.sv_1;url.doubleclick.net_1;ancurl.url_1;ancurl.click_1;ancurl.news.com_1;url.switchboard.com_1;url.memberbanners_1;alt.our_1;url.excite.com_1;origurl.netcenter_1;alt.at_1;url.www.ireland.today.ie_1
+Internet-Advertisements,1558,1200,JMI,1,2.470962999970652,,width;ancurl.msn.com_1;ancurl.click_1;ancurl.http.www_1;url.media_1;ancurl.qual.mc_1;ancurl.jump_1;origurl.bin.cgidir_1;ancurl.ng_1;ancurl.exe_1;url.memberbanners.live_1;ancurl.com_1;alt.our_1;ancurl.pl_1;origurl.thriveonline.com_1;ancurl.clickthru_1;url.any_1;ancurl.ads.msn_1;ancurl.2fcgi_1;url.ad_1
+Internet-Advertisements,1558,1200,ReliefF,1,0.11767790000885725,,ancurl.members.keith_1;url.marketing_1;url.ads.media_1;url.memberbanners_1;url.memberbanners.live_1;url.live_1;url.media_1;url.ads_1;url.ad.doubleclick.net_1;url.doubleclick.net_1;ancurl.doubleclick.net_1;ancurl.ad.doubleclick.net_1;ancurl.members_1;url.ad_1;ancurl.jump_1;ancurl.acc.clickthru_1;ancurl.bin.acc_1;ancurl.edition_1;url.media.images_1;ancurl.cnet.cat_1
+Internet-Advertisements,1558,1200,ElasticNet,1,0.5564652000321075,,width;url.ads_1;ancurl.click_1;url.images.home_1;ancurl.pl_1;url.sponsor_1;url.ads.media_1;alt.click_1;alt.on_1;ancurl.com_1;alt.visit.our_1;alt.at_1;origurl.asp_1;alt.now_1;alt.click.here_1;ancurl.ad_1;url.image_1;alt.here_1;origurl.zdnet.com_1;url.ad_1
+Internet-Advertisements,1558,1200,Boruta,1,8.502468699938618,,ancurl.com_1;ancurl.click_1;url.ads_1;ancurl.ng_1;width;ancurl.redirect_1;ancurl.type_1;ancurl.adid_1;ancurl.2f_1;alt.click_1;ancurl.redirect.http_1;ancurl.http.2f_1;url.ng_1;ancurl.click.profileid_1;ancurl.cid_1;origurl.bin_1;url.image.ng_1;alt.for_1;ancurl.image_1;ancurl.adclick_1
+Internet-Advertisements,1558,1200,SVM-RFE,1,0.19570539996493608,,ancurl.click_1;url.ads_1;ancurl.ng_1;height;aratio;url.ad.gif_1;url.assets_1;ancurl.nph_1;url.bin_1;url.banners_1;url.ad_1;ancurl.2fwww_1;ancurl.ad_1;origurl.bin_1;alt.visit.our_1;ancurl.pl_1;ancurl.2f.2fwww_1;ancurl.http.www_1;width;alt.click_1
+Internet-Advertisements,1558,1200,Stability Selection,1,0.3370893000392243,,width;url.ads_1;ancurl.com_1;url.ad_1;ancurl.click_1;url.memberbanners_1;url.images.home_1;url.memberbanners.live_1;url.live_1;alt.visit.our_1;ancurl.www.globec.com.au_1;ancurl.globec.com.au_1;url.ads.media_1;ancurl.tkaine_1;ancurl.marketing_1;ancurl.pl_1;url.banners_1;origurl.home.netscape.com_1;ancurl.www.thejeep.com_1;ancurl.http.www_1
+Internet-Advertisements,1558,1200,HSIC-Lasso,1,2.746392300003208,,url.live_1;url.memberbanners.live_1;ancurl.click_1;url.ad_1;url.ads_1;ancurl.adclick_1;ancurl.com_1;origurl.bin_1;ancurl.cid_1;width;alt.click_1;url.graphics_1;aratio;ancurl.bin_1;origurl.thejeep.com_1;url.memberbanners_1
+Internet-Advertisements,1558,1200,RF impurity,1,1.1778400000184774,,width;url.ads_1;aratio;ancurl.com_1;ancurl.click_1;height;ancurl.ng_1;ancurl.redirect_1;ancurl.http.www_1;alt.click_1;ancurl.ad_1;url.ad_1;alt.click.here_1;alt.here_1;ancurl.adid_1;url.ads.media_1;ancurl.ng.type_1;ancurl.pl_1;ancurl.http.2f_1;local_1
+Internet-Advertisements,1558,1200,RF permutation,1,242.78756660001818,,url.ads_1;width;aratio;local_1;ancurl.click_1;url.images_1;ancurl.com_1;height;ancurl.bin_1;url.ad_1;ancurl.ad_1;alt.click_1;ancurl.members.keith_1;url.com_1;url.doubleclick.net_1;url.ad.doubleclick.net_1;ancurl.members_1;ancurl.cid_1;ancurl.http.www_1;origurl.bin_1
+Internet-Advertisements,1558,1200,RF-RFE,1,1.7930924000684172,,width;url.ads_1;ancurl.com_1;ancurl.click_1;aratio;height;ancurl.redirect_1;ancurl.ng_1;url.ad_1;ancurl.http.www_1;ancurl.adclick_1;alt.click_1;ancurl.ad_1;local_1;alt.here_1;ancurl.ng.type_1;ancurl.redirect.http_1;ancurl.adid_1;ancurl.event_1;ancurl.profileid_1
+Internet-Advertisements,1558,1200,varSelRF,1,825.6292119000573,824.84,width;url.ads_1;ancurl.click_1;ancurl.com_1;aratio;height;ancurl.ng_1;alt.click_1;ancurl.redirect_1;ancurl.bin_1;url.ad_1;ancurl.http.www_1;ancurl.ad_1;alt.click.here_1;alt.here_1;origurl.www.geocities.com_1;url.geocities.com_1;url.www.geocities.com_1;ancurl.adid_1;url.ads.media_1
+Internet-Advertisements,1558,1200,VSURF,1,3138.528140499955,3137.73,url.ads_1;width;ancurl.click_1;ancurl.com_1;aratio;height;url.ad_1;ancurl.http.www_1;ancurl.redirect_1;url.images.home_1;ancurl.ng_1;ancurl.pl_1;alt.click_1;ancurl.adclick_1;local_1;ancurl.members.keith_1;ancurl.members_1;ancurl.ad_1;url.images_1;ancurl.area_1
+Bioresponse,1776,1200,TOPG,1,162.1972966999747,,D27;D78;D71;D9;D56;D21;D959;D66;D104;D687;D596;D10;D217;D117;D6;D469;D88;D927;D1371;D187
+Bioresponse,1776,1200,ANOVA,1,0.018725000089034438,,D27;D146;D469;D182;D217;D959;D747;D659;D87;D209;D596;D595;D660;D64;D1087;D88;D83;D187;D158;D26
+Bioresponse,1776,1200,mRMR,1,3.652424499974586,,D27;D1252;D66;D1469;D313;D187;D41;D982;D18;D952;D506;D61;D610;D1043;D1324;D948;D60;D386;D172;D844
+Bioresponse,1776,1200,JMI,1,2.4042657000245526,,D27;D1285;D61;D66;D187;D1509;D18;D685;D67;D313;D1408;D954;D1135;D959;D59;D75;D964;D31;D88;D1037
+Bioresponse,1776,1200,ReliefF,1,0.135481100063771,,D27;D81;D1059;D955;D775;D440;D984;D231;D1330;D1286;D1245;D237;D1341;D480;D223;D1126;D1021;D1404;D1086;D1361
+Bioresponse,1776,1200,ElasticNet,1,0.5486770999850705,,D27;D959;D231;D961;D603;D1258;D1371;D939;D108;D985;D1286;D954;D948;D13;D182;D998;D51;D378;D700;D681
+Bioresponse,1776,1200,Boruta,1,17.355127200018615,,D27;D146;D469;D182;D217;D959;D747;D659;D87;D209;D596;D595;D117;D103;D61;D70;D8;D201;D66;D106
+Bioresponse,1776,1200,SVM-RFE,1,3.8959519000491127,,D27;D469;D1;D689;D1230;D75;D62;D700;D681;D67;D1258;D706;D479;D13;D458;D1189;D378;D231;D747;D659
+Bioresponse,1776,1200,Stability Selection,1,0.408989799907431,,D27;D985;D959;D961;D231;D1204;D954;D273;D51;D1258;D1371;D101;D939;D948;D111;D762;D108;D174;D597;D998
+Bioresponse,1776,1200,HSIC-Lasso,1,2.9005119999637827,,D27;D469;D131;D18;D146;D741;D89;D10;D959;D61;D103;D998;D100;D5;D209;D101;D954;D740;D16;D108
+Bioresponse,1776,1200,RF impurity,1,1.4777904999209568,,D27;D5;D10;D88;D14;D66;D21;D103;D6;D106;D20;D469;D87;D95;D17;D19;D104;D9;D7;D107
+Bioresponse,1776,1200,RF permutation,1,246.25458369997796,,D27;D469;D104;D51;D747;D1061;D959;D66;D88;D741;D31;D87;D595;D78;D659;D32;D217;D194;D67;D218
+Bioresponse,1776,1200,RF-RFE,1,3.072784300078638,,D27;D5;D20;D104;D10;D88;D107;D9;D14;D26;D91;D21;D106;D105;D15;D7;D95;D103;D2;D469
+Bioresponse,1776,1200,varSelRF,1,871.7417189999251,870.75,D27;D88;D78;D469;D66;D5;D95;D10;D14;D64;D747;D26;D659;D87;D106;D146;D21;D91;D182;D86
+Bioresponse,1776,1200,VSURF,1,17797.884487600066,17796.84,D27;D78;D88;D469;D66;D10;D747;D182;D6;D5;D14;D9;D99;D95;D104;D64;D87;D84;D146;D17
