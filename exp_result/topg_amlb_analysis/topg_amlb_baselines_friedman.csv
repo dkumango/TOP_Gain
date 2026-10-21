@@ -1,0 +1,5 @@
+metric,n_datasets,k,friedman_p,cd,rank_TOPG,rank_position_TOPG,ranks
+ROC-AUC,24,13,1.0854288583629032e-13,3.724273914873863,2.6666666666666665,1,TOPG 2.67; RF-RFE 4.21; RF impurity 5.12; RF permutation 5.54; HSIC-Lasso 6.58; Boruta 6.75; JMI 7.21; mRMR 7.96; ANOVA 8.04; ElasticNet 8.67; SVM-RFE 8.92; Stability Selection 9.12; ReliefF 10.21
+Accuracy,24,13,6.111276603601208e-09,3.724273914873863,3.125,1,TOPG 3.12; RF-RFE 4.79; RF impurity 5.12; HSIC-Lasso 6.00; RF permutation 6.08; ANOVA 7.38; JMI 7.67; Boruta 7.88; ElasticNet 8.12; Stability Selection 8.50; SVM-RFE 8.54; mRMR 8.58; ReliefF 9.21
+Macro-F1,24,13,1.309034368062259e-09,3.724273914873863,3.2083333333333335,1,TOPG 3.21; RF-RFE 5.08; RF impurity 5.33; RF permutation 5.75; HSIC-Lasso 6.12; ANOVA 6.71; JMI 7.17; Boruta 7.42; Stability Selection 8.29; ElasticNet 8.50; mRMR 8.54; SVM-RFE 8.92; ReliefF 9.96
+Stability,24,13,1.8532695140605224e-24,3.724273914873863,8.208333333333334,7,RF impurity 2.50; ANOVA 2.58; Boruta 4.21; RF-RFE 4.50; HSIC-Lasso 6.33; ElasticNet 6.71; TOPG 8.21; Stability Selection 8.42; RF permutation 9.17; SVM-RFE 9.29; JMI 9.33; ReliefF 9.46; mRMR 10.29

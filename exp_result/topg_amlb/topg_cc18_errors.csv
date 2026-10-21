@@ -1,0 +1,123 @@
+seed,dataset,method,fold,error,trace
+1,fabert,RF permutation,3,PicklingError: Could not pickle the task to send it to the workers.,"pe[1])
+    )
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\parallel.py"", line 91, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 2072, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 1682, in _get_outputs
+    yield from self._retrieve()
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 1784, in _retrieve
+    self._raise_error_fast()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 1859, in _raise_error_fast
+    error_job.get_result(self.timeout)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 758, in get_result
+    return self._return_or_raise()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 773, in _return_or_raise
+    raise self._result
+_pickle.PicklingError: Could not pickle the task to send it to the workers.
+"
+2,porto-seguro,JMI,3,ValueError: list.remove(x): x not in list,"Traceback (most recent call last):
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_run_cc18.py"", line 104, in run
+    chosen = select(m, X_tr, y_tr, max_k, seed)
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_run_cc18.py"", line 69, in select
+    return list(PY_BASELINES[method](X_tr, y_tr, max_k))[:max_k]
+                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_baselines.py"", line 124, in select_jmi
+    remaining.remove(best_f)
+    ~~~~~~~~~~~~~~~~^^^^^^^^
+ValueError: list.remove(x): x not in list
+"
+2,KDDCup09_appetency,RF permutation,4,"MemoryError: Unable to allocate 98.4 MiB for an array with shape (360, 71640) and data type float32","\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\parallel.py"", line 91, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 2072, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 1682, in _get_outputs
+    yield from self._retrieve()
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 1784, in _retrieve
+    self._raise_error_fast()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 1859, in _raise_error_fast
+    error_job.get_result(self.timeout)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 758, in get_result
+    return self._return_or_raise()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 773, in _return_or_raise
+    raise self._result
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 98.4 MiB for an array with shape (360, 71640) and data type float32
+"
+2,KDDCup09_appetency,ReliefF,5,MemoryError: bad allocation,"le ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\neighbors\_base.py"", line 862, in kneighbors
+    results = ArgKmin.compute(
+        X=X,
+    ...<5 lines>...
+        return_distance=return_distance,
+    )
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\metrics\_pairwise_distances_reduction\_dispatcher.py"", line 289, in compute
+    return ArgKmin32.compute(
+           ~~~~~~~~~~~~~~~~~^
+        X=X,
+        ^^^^
+    ...<6 lines>...
+        return_distance=return_distance,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""sklearn/metrics/_pairwise_distances_reduction/_argkmin.pyx"", line 550, in sklearn.metrics._pairwise_distances_reduction._argkmin.ArgKmin32.compute
+  File ""sklearn/metrics/_pairwise_distances_reduction/_argkmin.pyx"", line 568, in sklearn.metrics._pairwise_distances_reduction._argkmin.ArgKmin32.compute
+  File ""sklearn/metrics/_pairwise_distances_reduction/_argkmin.pyx"", line 839, in sklearn.metrics._pairwise_distances_reduction._argkmin.EuclideanArgKmin32.__init__
+  File ""sklearn/metrics/_pairwise_distances_reduction/_middle_term_computer.pyx"", line 634, in sklearn.metrics._pairwise_distances_reduction._middle_term_computer.MiddleTermComputer32.get_for
+  File ""sklearn/metrics/_pairwise_distances_reduction/_middle_term_computer.pyx"", line 802, in sklearn.metrics._pairwise_distances_reduction._middle_term_computer.DenseDenseMiddleTermComputer32.__init__
+MemoryError: bad allocation
+"
+3,jannis,RF permutation,2,BrokenProcessPool: A task has failed to un-serialize. Please ensure that the arguments of the function are all picklable.,"ckages\sklearn\utils\parallel.py"", line 91, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 2072, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 1682, in _get_outputs
+    yield from self._retrieve()
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 1784, in _retrieve
+    self._raise_error_fast()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 1859, in _raise_error_fast
+    error_job.get_result(self.timeout)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 758, in get_result
+    return self._return_or_raise()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 773, in _return_or_raise
+    raise self._result
+joblib.externals.loky.process_executor.BrokenProcessPool: A task has failed to un-serialize. Please ensure that the arguments of the function are all picklable.
+"
+3,jasmine,RF permutation,1,PicklingError: Could not pickle the task to send it to the workers.,"pe[1])
+    )
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\utils\parallel.py"", line 91, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 2072, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 1682, in _get_outputs
+    yield from self._retrieve()
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 1784, in _retrieve
+    self._raise_error_fast()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 1859, in _raise_error_fast
+    error_job.get_result(self.timeout)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 758, in get_result
+    return self._return_or_raise()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File ""C:\Users\DKU\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\joblib\parallel.py"", line 773, in _return_or_raise
+    raise self._result
+_pickle.PicklingError: Could not pickle the task to send it to the workers.
+"
