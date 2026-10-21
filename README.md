@@ -211,7 +211,7 @@ The confirmatory hypothesis H4 and its independent dataset pool were registered 
 @article{topgain2026,
   title   = {Truncated Out-of-Bag Probability Gain: A Noise-Robust Criterion for Random-Forest Wrapper Feature Selection},
   author  = {[Authors]},
-  journal = {Knowledge and Information Systems (submitted)},
+  journal = { (submitted)},
   year    = {2026}
 }
 ```
@@ -225,4 +225,4 @@ The benchmark datasets are not redistributed; they are downloaded from OpenML un
 
 ## Contact
 
-[Corresponding author, affiliation, e-mail]
+[Sejong Oh, Dankook University, sejongoh@dankook.ac.kr]
