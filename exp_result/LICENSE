@@ -1,0 +1,27 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Sejong Oh
+
+The experimental result data in this folder (`exp_result/`), including all CSV
+files and figures, and the documentation files of this repository (including
+`topg_dataset_selection_protocol.md`) are licensed under the Creative Commons
+Attribution 4.0 International License.
+
+You are free to:
+  - Share: copy and redistribute the material in any medium or format;
+  - Adapt: remix, transform, and build upon the material for any purpose,
+    even commercially.
+
+Under the following terms:
+  - Attribution: you must give appropriate credit, provide a link to the
+    license, and indicate if changes were made. Please cite the accompanying
+    paper (see the Citation section of README.md).
+  - No additional restrictions: you may not apply legal terms or technological
+    measures that legally restrict others from doing anything the license
+    permits.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary:         https://creativecommons.org/licenses/by/4.0/
+
+The benchmark datasets themselves are not redistributed here; they are
+downloaded from OpenML (https://www.openml.org) under their own licenses.

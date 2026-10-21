@@ -1,0 +1,5 @@
+metric,friedman_chi2,friedman_p,iman_davenport_F,cd,n,k,avg_rank_TOPG,best,avg_ranks
+ROC-AUC,5.260115606936405,0.38496700848834997,1.0581395348837184,2.3844810756221153,10,6,3.9,Net probability gain,Net probability gain 2.70; OOB Brier score 3.00; OOB log-loss 3.30; OOB accuracy 3.80; TOPG 3.90; OOB balanced accuracy 4.30
+Accuracy,1.0458452722063054,0.9587839282807616,0.19227392449517153,2.3844810756221153,10,6,3.4,OOB Brier score,OOB Brier score 3.20; OOB accuracy 3.25; TOPG 3.40; OOB balanced accuracy 3.55; Net probability gain 3.70; OOB log-loss 3.90
+Macro-F1,1.5329512893982629,0.9092362059749611,0.28465858705290814,2.3844810756221153,10,6,3.3,OOB Brier score,OOB Brier score 3.10; TOPG 3.30; OOB balanced accuracy 3.35; Net probability gain 3.50; OOB accuracy 3.75; OOB log-loss 4.00
+Stability,32.457142857142856,4.822778600584571e-06,16.6514657980456,2.3844810756221153,10,6,1.4,TOPG,TOPG 1.40; Net probability gain 2.30; OOB log-loss 3.40; OOB Brier score 3.60; OOB accuracy 5.00; OOB balanced accuracy 5.30
