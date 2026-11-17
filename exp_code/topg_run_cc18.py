@@ -17,7 +17,7 @@ Protocol
 - A selector that raises an error is NOT replaced by another method: the error is written to
   topg_cc18_errors.csv and that (seed, dataset, method) cell stays empty.
 
-Usage (from the topg folder):
+Usage (from the exp_code folder):
     python topg_run_cc18.py --seeds 1 2 3 [--methods ...] [--datasets ...]
 Outputs: exp_result/topg_cc18/topg_cc18_s<seed>_<dataset>.csv  (resumable per method)
 """
@@ -39,13 +39,14 @@ sys.path.insert(0, str(HERE))
 import topg_baselines as tb  # noqa: E402
 import topg_common as tc  # noqa: E402
 import topg_run_wrapper_baselines as w  # noqa: E402
+from topg_new_baselines import NEW_BASELINES  # noqa: E402  (A9: recent baselines)
 
 OUT = HERE.parent / "exp_result" / "topg_cc18"
 SCREEN = HERE.parent / "exp_result" / "topg_dataset_screening" / "topg_screening_cc18.csv"
 K_GRID = (5, 10, 15, 20)
 WRAPPER_KEYS = {"TOPG": "M6", "Net probability gain": "M9", "OOB log-loss": "M10", "OOB Brier score": "M11",
                 "OOB accuracy": "M7", "OOB balanced accuracy": "M8"}
-PY_BASELINES = {**tb.BASELINES, **{k: v for k, v in tb.RF_BASELINES.items()}}
+PY_BASELINES = {**tb.BASELINES, **{k: v for k, v in tb.RF_BASELINES.items()}, **NEW_BASELINES}
 ALL_METHODS = list(WRAPPER_KEYS) + list(PY_BASELINES)
 
 

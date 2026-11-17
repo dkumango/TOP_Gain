@@ -9,7 +9,7 @@ Figures 2-4 and Table 6 of the revised manuscript.
   Figure 4  relevance density M-rel vs the stability gain dPhi (CC18 exploratory, AMLB confirmatory H4b)
   Table 6   runtime study (topg_runtime_benchmark.py): one core and ten cores
 
-Usage (from the topg folder):  python topg_make_revision_figures.py
+Usage (from the exp_code folder):  python topg_make_revision_figures.py
 Outputs: exp_result/figures/topg_fig2_toy_simulation.png, topg_fig3_pareto.png, topg_fig4_h4b_mrel_dphi.png,
          exp_result/topg_tables/topg_rev_toy_simulation.csv, topg_rev_runtime.csv
 """

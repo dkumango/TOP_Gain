@@ -18,11 +18,15 @@ StratifiedKFold, fold-wise median imputation, max_k = max(K) as in topg_run_cc18
 classifiers are trained. One warm-up call per method on a small synthetic problem precedes the timings
 (joblib worker start-up, Rscript start-up), and is discarded.
 
+A9 baselines (added 2026-11-07): STG (torch, in-process), Sequential Attention (TensorFlow) and Powershap (CatBoost)
+in the Python 3.12 bridges get the same core count through the environment variable TOPG_N_JOBS (torch.set_num_threads,
+TensorFlow intra/inter-op threads, CatBoost thread_count). Run with --methods STG "Sequential Attention" Powershap.
+
 Recorded per (dataset, method): wall-clock seconds of the selector call; for varSelRF / VSURF also the
 R-internal fitting time (without the CSV bridge); the selected list, to check that the worker count does
 not change any selection.
 
-Usage (from the topg folder):  python topg_runtime_benchmark.py --cores 10 ; python topg_runtime_benchmark.py --cores 1
+Usage (from the exp_code folder):  python topg_runtime_benchmark.py --cores 10 ; python topg_runtime_benchmark.py --cores 1
 Outputs: exp_result/topg_runtime/topg_runtime_c<cores>.csv (resumable)
 """
 from __future__ import annotations
@@ -39,6 +43,9 @@ ARGS = _ap.parse_args()
 if ARGS.cores == 1:  # must be set before numpy / sklearn are imported
     for _v in ["OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS", "MKL_NUM_THREADS", "NUMEXPR_NUM_THREADS"]:
         os.environ[_v] = "1"
+# thread count for the A9 baselines (STG/torch in-process; Sequential Attention/TensorFlow and Powershap/CatBoost in the
+# Python 3.12 bridges, which inherit the environment)
+os.environ["TOPG_N_JOBS"] = str(ARGS.cores)
 
 import platform  # noqa: E402
 import time  # noqa: E402

@@ -11,7 +11,7 @@ For every variant (one setting changed from the default T = 40, depth 5, pool fa
   - Part A only: the variant's Friedman mean rank of ROC-AUC and of Phi when it replaces default TOPG among
     the 15 CC18 methods, and its paired comparison with the net-gain criterion (Phi).
 
-Usage (from the topg folder):  python topg_analyze_sensitivity.py
+Usage (from the exp_code folder):  python topg_analyze_sensitivity.py
 Outputs: exp_result/topg_sensitivity_analysis/topg_sens_*.csv
 """
 from __future__ import annotations

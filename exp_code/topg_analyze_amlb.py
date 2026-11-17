@@ -14,7 +14,7 @@ topg_dataset_selection_protocol.md, amendment A3.
 
 Unit = dataset; per dataset the mean over K, the four classifiers and the three repeats.
 
-Usage (from the topg folder):  python topg_analyze_amlb.py
+Usage (from the exp_code folder):  python topg_analyze_amlb.py
 Outputs: exp_result/topg_amlb_analysis/topg_amlb_*.csv / .png
 """
 from __future__ import annotations

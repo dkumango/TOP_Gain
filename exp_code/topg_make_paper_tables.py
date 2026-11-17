@@ -2,7 +2,7 @@
 """
 topg_make_paper_tables.py
 =========================
-Builds the tables of the original ten-dataset benchmark (Online Resource 1, Section S4) from the stored CSVs
+Builds the tables of the original ten-dataset benchmark (Supplementary Material, Section S4) from the stored CSVs
 (no selector is re-run).
 
 Inputs
@@ -21,7 +21,7 @@ Outputs (exp_result/topg_tables/)
   topg_table_extensions.csv          TOPG vs TOPG + SRA-FS extensions (M4, SRA-FS v8)
   topg_table_robustness_seed.csv     M12 (p_base refitted with the candidates' seed) vs TOPG, criteria, baselines
 
-Usage:  python topg_make_paper_tables.py   (from the topg folder)
+Usage:  python topg_make_paper_tables.py   (from the exp_code folder)
 """
 from __future__ import annotations
 

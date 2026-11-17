@@ -5,7 +5,7 @@ topg_dataset_screening.py
 Applies the eligibility rules R1-R3 of topg_dataset_selection_protocol.md to OpenML-CC18 and computes
 the pre-specified dataset moderators. No feature selector is run here.
 
-Usage (from the topg folder):  python topg_dataset_screening.py
+Usage (from the exp_code folder):  python topg_dataset_screening.py
 Output: exp_result/topg_dataset_screening/topg_screening_cc18.csv  (one row per CC18 task; resumable)
 """
 from __future__ import annotations

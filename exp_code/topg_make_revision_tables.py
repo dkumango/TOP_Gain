@@ -7,7 +7,7 @@ statistics come from topg_analyze_cc18.py / topg_analyze_amlb.py; this script on
 means, per-classifier ranks, dataset lists and selection times, from the same raw result files and with the
 same aggregation (dataset = unit; mean over K, the four classifiers and the three repeats).
 
-Usage (from the topg folder):  python topg_make_revision_tables.py
+Usage (from the exp_code folder):  python topg_make_revision_tables.py
 Outputs: exp_result/topg_tables/topg_rev_*.csv
 """
 from __future__ import annotations

@@ -34,7 +34,7 @@ same K targets, same four downstream classifiers, same surrogate size of 40 tree
 and then compares them with the stored SRA-FS v8 results (per-dataset win/tie/loss,
 Wilcoxon signed-rank test, recomputed Grand Rank).
 
-Usage (run from the topg folder; self-contained -- no file outside topg/ is used)
+Usage (run from the exp_code folder; self-contained -- no file outside topg/ is used)
 ---------------------------------------
     python topg_run_wrapper_baselines.py                    # M6 and M4 on all 10 datasets
     python topg_run_wrapper_baselines.py --variants M6      # M6 only

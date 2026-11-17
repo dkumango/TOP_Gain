@@ -18,7 +18,7 @@ Sources
   repeated : seed 42 + repeats in exp_result/topg_repeated_cv (per dataset: mean over available seeds;
              only seeds for which every compared method is available are used)
 
-Usage (from the topg folder):  python topg_stats.py --source single|repeated
+Usage (from the exp_code folder):  python topg_stats.py --source single|repeated
 Outputs: exp_result/topg_stats/topg_stats_<source>_<comparison>.csv, topg_cd_<source>_<comparison>_<metric>.png
 """
 from __future__ import annotations

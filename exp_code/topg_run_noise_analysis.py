@@ -31,7 +31,7 @@ Reliability of a criterion over the R replicates (for each dataset x s x perturb
   top5      mean pairwise Jaccard index of the five best candidates
   icc       ICC(1): between-candidate variance of the replicate means divided by the total variance
 
-Usage (from the topg folder):  python topg_run_noise_analysis.py [--replicates 10] [--datasets ...]
+Usage (from the exp_code folder):  python topg_run_noise_analysis.py [--replicates 10] [--datasets ...]
 
 Outputs (exp_result/topg_noise_analysis/)
 -------------------------------------------

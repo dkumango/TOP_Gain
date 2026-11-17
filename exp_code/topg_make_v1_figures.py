@@ -13,7 +13,7 @@ Figures of manuscript v1.0 in the format of Knowledge and Information Systems (S
 
 Writes PNG (for the docx) to exp_result/figures/ and TIFF copies to exp_result/figures/topg_kais_figures/.
 
-Usage (from the topg folder):  python topg_make_v1_figures.py   (run topg_make_revision_figures.py first)
+Usage (from the exp_code folder):  python topg_make_v1_figures.py   (run topg_make_revision_figures.py first)
 """
 from __future__ import annotations
 

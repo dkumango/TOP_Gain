@@ -14,7 +14,7 @@ Analysis of the CC18 benchmark (topg_run_cc18.py) following topg_dataset_selecti
    Spearman rho with a two-sided permutation p (10,000 permutations) and a median split (Mann-Whitney).
    Exploratory: every other moderator against both outcomes.
 
-Usage (from the topg folder):  python topg_analyze_cc18.py [--seeds 1 2 3] [--tag interim]
+Usage (from the exp_code folder):  python topg_analyze_cc18.py [--seeds 1 2 3] [--tag interim]
 Outputs: exp_result/topg_cc18_analysis/topg_cc18_<tag>_*.csv / .png
 """
 from __future__ import annotations

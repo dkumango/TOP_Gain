@@ -12,7 +12,7 @@ One setting is changed at a time from the default (T = 40 trees, maximum depth 5
 Everything else (folds, K grid, imputation, four classifiers, seeds) is exactly as in topg_run_cc18.py; the
 default TOPG results are taken from the main benchmark files.
 
-Usage (from the topg folder):  python topg_run_sensitivity.py --part A ; python topg_run_sensitivity.py --part B
+Usage (from the exp_code folder):  python topg_run_sensitivity.py --part A ; python topg_run_sensitivity.py --part B
 Outputs: exp_result/topg_sensitivity/topg_cc18_s<seed>_<dataset>.csv (same format as the benchmark)
 """
 from __future__ import annotations

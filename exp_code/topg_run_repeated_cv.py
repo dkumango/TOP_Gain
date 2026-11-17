@@ -14,7 +14,7 @@ select K_max features once per fold, evaluate the first K for every K target wit
 
 The stored single-seed benchmark (seed 42) serves as repeat 0; this script adds repeats with other seeds.
 
-Usage (from the topg folder):
+Usage (from the exp_code folder):
     python topg_run_repeated_cv.py --seeds 1 2 3 4 --methods TOPG ANOVA mRMR ...   # any subset
     python topg_run_repeated_cv.py --seeds 42 --methods ANOVA --datasets synthetic  # sanity check vs stored
 

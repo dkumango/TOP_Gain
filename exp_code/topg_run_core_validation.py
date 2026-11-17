@@ -30,7 +30,7 @@ Experiments
               SRA-FS / baseline rows of that script are merged into the summary; only the new
               wrapper variants are computed here.
 
-Usage (run from the topg folder; self-contained -- no file outside topg/ is used)
+Usage (run from the exp_code folder; self-contained -- no file outside topg/ is used)
 ---------------------------------------
     python topg_run_core_validation.py                       # all three experiments
     python topg_run_core_validation.py --parts epistasis imbalance
