@@ -1,0 +1,13 @@
+classifier,metric,n_datasets,k,rank_TOPG,position_TOPG,best_other,rank_best_other
+Random Forest,roc_auc,24,16,4.041666666666667,1,Powershap,4.25
+Random Forest,accuracy,24,16,3.8958333333333335,1,Powershap,4.854166666666667
+Random Forest,macro_f1,24,16,4.458333333333333,1,Powershap,5.375
+XGBoost,roc_auc,24,16,3.25,1,Powershap,4.416666666666667
+XGBoost,accuracy,24,16,4.145833333333333,1,Powershap,5.479166666666667
+XGBoost,macro_f1,24,16,3.125,1,Powershap,5.583333333333333
+RBF-SVM,roc_auc,24,16,3.8333333333333335,1,Powershap,5.208333333333333
+RBF-SVM,accuracy,24,16,4.125,1,Powershap,4.770833333333333
+RBF-SVM,macro_f1,24,16,4.791666666666667,1,Powershap,5.479166666666667
+Logistic regression,roc_auc,24,16,4.083333333333333,1,Powershap,5.458333333333333
+Logistic regression,accuracy,24,16,5.208333333333333,1,Sequential Attention,6.458333333333333
+Logistic regression,macro_f1,24,16,4.958333333333333,1,Sequential Attention,6.375

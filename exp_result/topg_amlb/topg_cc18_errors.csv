@@ -121,3 +121,39 @@ joblib.externals.loky.process_executor.BrokenProcessPool: A task has failed to u
     raise self._result
 _pickle.PicklingError: Could not pickle the task to send it to the workers.
 "
+1,amazon-commerce-reviews,Powershap,5,"RuntimeError: Powershap failed (exit code 3221225477, output file: False): ","Traceback (most recent call last):
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_run_cc18.py"", line 105, in run
+    chosen = select(m, X_tr, y_tr, max_k, seed)
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_run_cc18.py"", line 70, in select
+    return list(PY_BASELINES[method](X_tr, y_tr, max_k))[:max_k]
+                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_new_baselines.py"", line 118, in select_powershap
+    idx = _bridge(POWERSHAP_BRIDGE, Xp.values, y_tr, max_k, ""Powershap"")
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_new_baselines.py"", line 103, in _bridge
+    raise RuntimeError(f""{name} failed (exit code {res.returncode}, output file: {out.exists()}): {res.stderr[-800:]}"")
+RuntimeError: Powershap failed (exit code 3221225477, output file: False): 
+"
+1,amazon-commerce-reviews,Powershap,1,"RuntimeError: Powershap failed (exit code 3221225477, output file: False): ","Traceback (most recent call last):
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_run_cc18.py"", line 105, in run
+    chosen = select(m, X_tr, y_tr, max_k, seed)
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_run_cc18.py"", line 70, in select
+    return list(PY_BASELINES[method](X_tr, y_tr, max_k))[:max_k]
+                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_new_baselines.py"", line 118, in select_powershap
+    idx = _bridge(POWERSHAP_BRIDGE, Xp.values, y_tr, max_k, ""Powershap"")
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_new_baselines.py"", line 103, in _bridge
+    raise RuntimeError(f""{name} failed (exit code {res.returncode}, output file: {out.exists()}): {res.stderr[-800:]}"")
+RuntimeError: Powershap failed (exit code 3221225477, output file: False): 
+"
+2,amazon-commerce-reviews,Powershap,4,"RuntimeError: Powershap failed (exit code 3221225477, output file: False): ","Traceback (most recent call last):
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_run_cc18.py"", line 105, in run
+    chosen = select(m, X_tr, y_tr, max_k, seed)
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_run_cc18.py"", line 70, in select
+    return list(PY_BASELINES[method](X_tr, y_tr, max_k))[:max_k]
+                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_new_baselines.py"", line 118, in select_powershap
+    idx = _bridge(POWERSHAP_BRIDGE, Xp.values, y_tr, max_k, ""Powershap"")
+  File ""C:\Users\DKU\OneDrive - 단국대학교\연구\2026_SRA_FS\source_code\topg\topg_new_baselines.py"", line 103, in _bridge
+    raise RuntimeError(f""{name} failed (exit code {res.returncode}, output file: {out.exists()}): {res.stderr[-800:]}"")
+RuntimeError: Powershap failed (exit code 3221225477, output file: False): 
+"

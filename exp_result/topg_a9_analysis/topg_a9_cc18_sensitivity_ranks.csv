@@ -1,0 +1,13 @@
+variant,metric,n_datasets,n_methods,rank_variant,position,best_other,rank_best_other,ahead
+default,ROC-AUC,26,18,5.1923076923076925,1,Powershap,5.269230769230769,
+default,Stability,26,18,15.0,18,RF impurity,3.3461538461538463,"RF impurity, varSelRF, ANOVA, Boruta, RF-RFE, STG, Powershap, VSURF, Stability Selection, HSIC-Lasso, ElasticNet, mRMR, Sequential Attention, JMI, SVM-RFE, RF permutation, ReliefF"
+TOPG T=20,ROC-AUC,26,18,5.8076923076923075,3,Powershap,5.1923076923076925,"Powershap, VSURF"
+TOPG T=20,Stability,26,18,15.634615384615385,18,RF impurity,3.326923076923077,"RF impurity, varSelRF, ANOVA, Boruta, RF-RFE, STG, Powershap, VSURF, Stability Selection, HSIC-Lasso, ElasticNet, mRMR, Sequential Attention, JMI, SVM-RFE, RF permutation, ReliefF"
+TOPG T=80,ROC-AUC,26,18,4.769230769230769,1,Powershap,5.269230769230769,
+TOPG T=80,Stability,26,18,13.846153846153847,16,RF impurity,3.3653846153846154,"RF impurity, varSelRF, ANOVA, Boruta, RF-RFE, STG, Powershap, VSURF, HSIC-Lasso, Stability Selection, ElasticNet, mRMR, Sequential Attention, JMI, SVM-RFE"
+TOPG T=160,ROC-AUC,26,18,4.8076923076923075,1,Powershap,5.3076923076923075,
+TOPG T=160,Stability,26,18,12.73076923076923,13,RF impurity,3.326923076923077,"RF impurity, varSelRF, ANOVA, Boruta, RF-RFE, STG, Powershap, VSURF, HSIC-Lasso, Stability Selection, ElasticNet, mRMR"
+TOPG depth=3,ROC-AUC,26,18,6.1923076923076925,3,Powershap,5.115384615384615,"Powershap, VSURF"
+TOPG depth=3,Stability,26,18,14.384615384615385,16,RF impurity,3.326923076923077,"RF impurity, varSelRF, ANOVA, Boruta, RF-RFE, STG, Powershap, VSURF, HSIC-Lasso, Stability Selection, ElasticNet, mRMR, Sequential Attention, JMI, SVM-RFE"
+TOPG depth=8,ROC-AUC,26,18,4.538461538461538,1,Powershap,5.3076923076923075,
+TOPG depth=8,Stability,26,18,15.538461538461538,18,RF impurity,3.326923076923077,"RF impurity, varSelRF, ANOVA, Boruta, RF-RFE, STG, Powershap, VSURF, Stability Selection, HSIC-Lasso, ElasticNet, mRMR, Sequential Attention, JMI, SVM-RFE, RF permutation, ReliefF"
