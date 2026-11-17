@@ -1,0 +1,3 @@
+hypothesis,role,moderator,outcome,n_datasets,spearman_rho,perm_p_one_sided,alpha,rejected
+H4a,primary,M_rel,dAUC,24,-0.2817391304347826,0.08849115088491151,0.05,False
+H4b,secondary,M_rel,dPhi,24,-0.568695652173913,0.0038996100389961006,0.05,True
